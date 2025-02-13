@@ -34,7 +34,7 @@
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-solid": "^0.14.5",
-    "globals": "^15.14.0",
+    "globals": "^15.15.0",
     "jsdom": "^26.0.0",
     "pnpm": "^10.3.0",
     "solid-js": "^1.9.4",
@@ -62,6 +62,6 @@
   },
   "packageManager": "pnpm@10.1.0+sha512.c89847b0667ddab50396bbbd008a2a43cf3b581efd59cf5d9aa8923ea1fb4b8106c041d540d08acb095037594d73ebc51e1ec89ee40c88b30b8a66c0fae0ac1b",
   "dependencies": {
-    "sst": "3.8.4"
+    "sst": "3.8.8"
   }
 }
