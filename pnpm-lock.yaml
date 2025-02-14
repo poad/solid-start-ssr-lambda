@@ -12,8 +12,8 @@ importers:
   .:
     dependencies:
       sst:
-        specifier: 3.8.8
-        version: 3.8.8
+        specifier: 3.9.0
+        version: 3.9.0
     devDependencies:
       '@eslint/compat':
         specifier: ^1.2.6
@@ -32,7 +32,7 @@ importers:
         version: 0.15.3(solid-js@1.9.4)
       '@solidjs/start':
         specifier: ^1.1.1
-        version: 1.1.1(@testing-library/jest-dom@6.6.3)(solid-js@1.9.4)(vinxi@0.4.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(terser@5.39.0)(typescript@5.7.3))(vite@6.1.0(@types/node@22.13.4)(jiti@2.4.2)(terser@5.39.0))
+        version: 1.1.1(@testing-library/jest-dom@6.6.3)(solid-js@1.9.4)(vinxi@0.5.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(jiti@2.4.2)(terser@5.39.0)(typescript@5.7.3))(vite@6.1.0(@types/node@22.13.4)(jiti@2.4.2)(terser@5.39.0))
       '@solidjs/testing-library':
         specifier: ^0.8.10
         version: 0.8.10(@solidjs/router@0.15.3(solid-js@1.9.4))(solid-js@1.9.4)
@@ -94,8 +94,8 @@ importers:
         specifier: ^8.24.0
         version: 8.24.0(eslint@9.20.1(jiti@2.4.2))(typescript@5.7.3)
       vinxi:
-        specifier: ^0.4.3
-        version: 0.4.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(terser@5.39.0)(typescript@5.7.3)
+        specifier: ^0.5.3
+        version: 0.5.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(jiti@2.4.2)(terser@5.39.0)(typescript@5.7.3)
       vite:
         specifier: ^6.1.0
         version: 6.1.0(@types/node@22.13.4)(jiti@2.4.2)(terser@5.39.0)
@@ -1460,14 +1460,6 @@ packages:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
 
-  crossws@0.2.4:
-    resolution: {integrity: sha512-DAxroI2uSOgUKLz00NX6A8U/8EE3SZHmIND+10jkVSaypvyt57J5JEOxAQOL6lQxyzi/wZbTIwssU1uy69h5Vg==}
-    peerDependencies:
-      uWebSockets.js: '*'
-    peerDependenciesMeta:
-      uWebSockets.js:
-        optional: true
-
   crossws@0.3.4:
     resolution: {integrity: sha512-uj0O1ETYX1Bh6uSgktfPvwDiPYGQ3aI4qVsaC/LWpkIzGj1nUYm5FK3K+t11oOlpN01lGbprFCH4wBlKdJjVgw==}
 
@@ -2060,11 +2052,8 @@ packages:
     resolution: {integrity: sha512-O1Ld7Dr+nqPnmGpdhzLmMTQ4vAsD+rHwMm1NLUmoUFFymBOMKxCCrtDxqdBRYXdeEPEi3SyoR4TizJLQrnKBNA==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  h3@1.11.1:
-    resolution: {integrity: sha512-AbaH6IDnZN6nmbnJOH72y3c5Wwh9P97soSVdGSBbcDACRdkC0FEWf25pzx4f/NuOCK6quHmW18yF2Wx+G4Zi1A==}
-
-  h3@1.15.0:
-    resolution: {integrity: sha512-OsjX4JW8J4XGgCgEcad20pepFQWnuKH+OwkCJjogF3C+9AZ1iYdtB4hX6vAb5DskBiu5ljEXqApINjR8CqoCMQ==}
+  h3@1.13.0:
+    resolution: {integrity: sha512-vFEAu/yf8UMUcB4s43OaDaigcqpQd14yanmOsn+NcRX3/guSKncyE2rOYhq8RIchgJrPSs/QiIddnTTR1ddiAg==}
 
   has-bigints@1.1.0:
     resolution: {integrity: sha512-R3pbpkcIqv2Pm3dUwgjclDRVmWpTJW2DcMzcIhEXEx1oh/CEMObMm3KLmRJOdvhM7o4uQBnwr8pzRK2sJWIqfg==}
@@ -2702,9 +2691,6 @@ packages:
     resolution: {integrity: sha512-LA4ZjwlnUblHVgq0oBF3Jl/6h/Nvs5fzBLwdEF4nuxnFdsfajde4WfxtJr3CaiH+F6ewcIB/q4jQ4UzPyid+CQ==}
     hasBin: true
 
-  node-mock-http@1.0.0:
-    resolution: {integrity: sha512-0uGYQ1WQL1M5kKvGRXWQ3uZCHtLTO8hln3oBjIusM75WoesZ909uQJs/Hb946i2SS+Gsrhkaa6iAO17jRIv6DQ==}
-
   node-releases@2.0.19:
     resolution: {integrity: sha512-xxOWJsBKtzAq7DY0J+DTzuz58K8e7sJbdgwkbMWQe8UYB6ekmsQ45q0M/tJDsGaZmbC+l7n57UV8Hl5tHxO9uw==}
 
@@ -3213,33 +3199,33 @@ packages:
   space-separated-tokens@2.0.2:
     resolution: {integrity: sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==}
 
-  sst-darwin-arm64@3.8.8:
-    resolution: {integrity: sha512-FJyYk63zZ89pXf/PZnZrOHTU9reuP2IE6kdFlakxukS0SX2sGHv0BXkoiS1f+9p3VDf+74+VKDrZGn1ECIiNmA==}
+  sst-darwin-arm64@3.9.0:
+    resolution: {integrity: sha512-m+ulk47abORKnv3+k+TIfCZ45D9rwBBIBEXWOXdAnamDQAvAxTDG8XWv+Lw2VwWI9pvs6Xgccgf7irDp8zL9Jg==}
     cpu: [arm64]
     os: [darwin]
 
-  sst-darwin-x64@3.8.8:
-    resolution: {integrity: sha512-0jNpXXkSW1pGI5vVg2je8mlmCegjJJmWVSrUXb6wJqSVYySuoZIwqQB5jvCePts3YM+/NnW5INeUFurbC6j/dQ==}
+  sst-darwin-x64@3.9.0:
+    resolution: {integrity: sha512-UTlLn3XX3scdRGhUkHZUXBIXHPvejTs7G+LikM7ypBfsE/226F9H9XX5zLNalGQBQ1CxWuQd5ykggEvgkVJiEg==}
     cpu: [x64]
     os: [darwin]
 
-  sst-linux-arm64@3.8.8:
-    resolution: {integrity: sha512-vl/H5EDkHeFW2nnOIEOUV/oNE4ns/I1F/KtK/faDY2VotxuPjT3Uvtqdg1A2mItvyx1FKwI8/KgP9CytVagRrw==}
+  sst-linux-arm64@3.9.0:
+    resolution: {integrity: sha512-TVeZjw8Eyrgdynar7OimW45URFrQxO9OyqpKRq4M2uRJsfmbVnE/v2MZhM8n1Imz6OtemQUqZSaquQQy847ZXA==}
     cpu: [arm64]
     os: [linux]
 
-  sst-linux-x64@3.8.8:
-    resolution: {integrity: sha512-S+iCcFhtGqK5px0+oJxic5TSHLZdulWfy+qYzSMl+e3evQGIcJmwHjLuEwlmyuwwgs0+dZYt9NYhLTKyUThLDA==}
+  sst-linux-x64@3.9.0:
+    resolution: {integrity: sha512-oUfCgpBFvMKFFJQxM6x7o0d9D7muzD6Z3NbLzg9ORHHNZvofSnVl7AjuEA7KNQlczue1wcRqqmo6X0+aKvcdpQ==}
     cpu: [x64]
     os: [linux]
 
-  sst-linux-x86@3.8.8:
-    resolution: {integrity: sha512-lfGHfbL7U196Y8MtqCvBNOz9qaNsWGldPj6HLR6KsW5LTNxFYYehGVebB+tj0uK3gjWPou1bGPASt9/Q69VwIQ==}
+  sst-linux-x86@3.9.0:
+    resolution: {integrity: sha512-Sq7UTyNhp22n2PN7HneCHR3Fm7e+u1cOcbgFD58BRqhzafm5SV173P3p/E2b2vPsf07uJagOhHtII2eim4w08A==}
     cpu: [x86]
     os: [linux]
 
-  sst@3.8.8:
-    resolution: {integrity: sha512-1de39fi3m2TdY2v/C/58qRx1fXbM8Nmg2+7B7J2fXabYTxYRP/ky3K7Jk/9aS649U5iI2Gmnvs3ltW7wO1/8FA==}
+  sst@3.9.0:
+    resolution: {integrity: sha512-YRxtTkWNq9CHzTLPsNvoJ+gQYd4d0BFX5kKg9Oll7hI1orI5mqD2WqtQeTve7TsH9JAQPbRAlXqKkvpWnQOl7A==}
     hasBin: true
 
   stable-hash@0.0.4:
@@ -3641,8 +3627,8 @@ packages:
   vfile@6.0.3:
     resolution: {integrity: sha512-KzIbH/9tXat2u30jf+smMwFCsno4wHVdNmzFyL+T/L3UGqqk6JKfVqOFOZEpZSHADH1k40ab6NUIXZq422ov3Q==}
 
-  vinxi@0.4.3:
-    resolution: {integrity: sha512-RgJz7RWftML5h/qfPsp3QKVc2FSlvV4+HevpE0yEY2j+PS/I2ULjoSsZDXaR8Ks2WYuFFDzQr8yrox7v8aqkng==}
+  vinxi@0.5.3:
+    resolution: {integrity: sha512-4sL2SMrRzdzClapP44oXdGjCE1oq7/DagsbjY5A09EibmoIO4LP8ScRVdh03lfXxKRk7nCWK7n7dqKvm+fp/9w==}
     hasBin: true
 
   vite-node@3.0.5:
@@ -3658,37 +3644,6 @@ packages:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
     peerDependenciesMeta:
       '@testing-library/jest-dom':
-        optional: true
-
-  vite@5.4.14:
-    resolution: {integrity: sha512-EK5cY7Q1D8JNhSaPKVK4pwBFvaTmZxEnoKXLG/U9gmdDcihQGNzFlgIvaxezFR4glP1LsuiedwMBqCXH3wZccA==}
-    engines: {node: ^18.0.0 || >=20.0.0}
-    hasBin: true
-    peerDependencies:
-      '@types/node': ^18.0.0 || >=20.0.0
-      less: '*'
-      lightningcss: ^1.21.0
-      sass: '*'
-      sass-embedded: '*'
-      stylus: '*'
-      sugarss: '*'
-      terser: ^5.4.0
-    peerDependenciesMeta:
-      '@types/node':
-        optional: true
-      less:
-        optional: true
-      lightningcss:
-        optional: true
-      sass:
-        optional: true
-      sass-embedded:
-        optional: true
-      stylus:
-        optional: true
-      sugarss:
-        optional: true
-      terser:
         optional: true
 
   vite@6.1.0:
@@ -4555,11 +4510,11 @@ snapshots:
     dependencies:
       solid-js: 1.9.4
 
-  '@solidjs/start@1.1.1(@testing-library/jest-dom@6.6.3)(solid-js@1.9.4)(vinxi@0.4.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(terser@5.39.0)(typescript@5.7.3))(vite@6.1.0(@types/node@22.13.4)(jiti@2.4.2)(terser@5.39.0))':
+  '@solidjs/start@1.1.1(@testing-library/jest-dom@6.6.3)(solid-js@1.9.4)(vinxi@0.5.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(jiti@2.4.2)(terser@5.39.0)(typescript@5.7.3))(vite@6.1.0(@types/node@22.13.4)(jiti@2.4.2)(terser@5.39.0))':
     dependencies:
       '@tanstack/server-functions-plugin': 1.103.1
-      '@vinxi/plugin-directives': 0.5.0(vinxi@0.4.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(terser@5.39.0)(typescript@5.7.3))
-      '@vinxi/server-components': 0.5.0(vinxi@0.4.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(terser@5.39.0)(typescript@5.7.3))
+      '@vinxi/plugin-directives': 0.5.0(vinxi@0.5.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(jiti@2.4.2)(terser@5.39.0)(typescript@5.7.3))
+      '@vinxi/server-components': 0.5.0(vinxi@0.5.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(jiti@2.4.2)(terser@5.39.0)(typescript@5.7.3))
       defu: 6.1.4
       error-stack-parser: 2.1.4
       html-to-image: 1.11.13
@@ -4570,7 +4525,7 @@ snapshots:
       source-map-js: 1.2.1
       terracotta: 1.0.6(solid-js@1.9.4)
       tinyglobby: 0.2.10
-      vinxi: 0.4.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(terser@5.39.0)(typescript@5.7.3)
+      vinxi: 0.5.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(jiti@2.4.2)(terser@5.39.0)(typescript@5.7.3)
       vite-plugin-solid: 2.11.1(@testing-library/jest-dom@6.6.3)(solid-js@1.9.4)(vite@6.1.0(@types/node@22.13.4)(jiti@2.4.2)(terser@5.39.0))
     transitivePeerDependencies:
       - '@testing-library/jest-dom'
@@ -4860,7 +4815,7 @@ snapshots:
       consola: 3.4.0
       defu: 6.1.4
       get-port-please: 3.1.2
-      h3: 1.11.1
+      h3: 1.13.0
       http-shutdown: 1.2.2
       jiti: 1.21.7
       mlly: 1.7.4
@@ -4870,10 +4825,8 @@ snapshots:
       ufo: 1.5.4
       untun: 0.1.3
       uqr: 0.1.2
-    transitivePeerDependencies:
-      - uWebSockets.js
 
-  '@vinxi/plugin-directives@0.5.0(vinxi@0.4.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(terser@5.39.0)(typescript@5.7.3))':
+  '@vinxi/plugin-directives@0.5.0(vinxi@0.5.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(jiti@2.4.2)(terser@5.39.0)(typescript@5.7.3))':
     dependencies:
       '@babel/parser': 7.26.8
       acorn: 8.14.0
@@ -4884,18 +4837,18 @@ snapshots:
       magicast: 0.2.11
       recast: 0.23.9
       tslib: 2.8.1
-      vinxi: 0.4.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(terser@5.39.0)(typescript@5.7.3)
+      vinxi: 0.5.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(jiti@2.4.2)(terser@5.39.0)(typescript@5.7.3)
 
-  '@vinxi/server-components@0.5.0(vinxi@0.4.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(terser@5.39.0)(typescript@5.7.3))':
+  '@vinxi/server-components@0.5.0(vinxi@0.5.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(jiti@2.4.2)(terser@5.39.0)(typescript@5.7.3))':
     dependencies:
-      '@vinxi/plugin-directives': 0.5.0(vinxi@0.4.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(terser@5.39.0)(typescript@5.7.3))
+      '@vinxi/plugin-directives': 0.5.0(vinxi@0.5.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(jiti@2.4.2)(terser@5.39.0)(typescript@5.7.3))
       acorn: 8.14.0
       acorn-loose: 8.4.0
       acorn-typescript: 1.4.13(acorn@8.14.0)
       astring: 1.9.0
       magicast: 0.2.11
       recast: 0.23.9
-      vinxi: 0.4.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(terser@5.39.0)(typescript@5.7.3)
+      vinxi: 0.5.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(jiti@2.4.2)(terser@5.39.0)(typescript@5.7.3)
 
   '@vitest/coverage-v8@3.0.5(vitest@3.0.5)':
     dependencies:
@@ -5366,8 +5319,6 @@ snapshots:
       path-key: 3.1.1
       shebang-command: 2.0.0
       which: 2.0.2
-
-  crossws@0.2.4: {}
 
   crossws@0.3.4:
     dependencies:
@@ -6018,10 +5969,10 @@ snapshots:
     dependencies:
       duplexer: 0.1.2
 
-  h3@1.11.1:
+  h3@1.13.0:
     dependencies:
       cookie-es: 1.2.2
-      crossws: 0.2.4
+      crossws: 0.3.4
       defu: 6.1.4
       destr: 2.0.3
       iron-webcrypto: 1.2.1
@@ -6030,21 +5981,6 @@ snapshots:
       ufo: 1.5.4
       uncrypto: 0.1.3
       unenv: 1.10.0
-    transitivePeerDependencies:
-      - uWebSockets.js
-
-  h3@1.15.0:
-    dependencies:
-      cookie-es: 1.2.2
-      crossws: 0.3.4
-      defu: 6.1.4
-      destr: 2.0.3
-      iron-webcrypto: 1.2.1
-      node-mock-http: 1.0.0
-      ohash: 1.1.4
-      radix3: 1.1.2
-      ufo: 1.5.4
-      uncrypto: 0.1.3
 
   has-bigints@1.1.0: {}
 
@@ -6477,7 +6413,7 @@ snapshots:
       crossws: 0.3.4
       defu: 6.1.4
       get-port-please: 3.1.2
-      h3: 1.15.0
+      h3: 1.13.0
       http-shutdown: 1.2.2
       jiti: 2.4.2
       mlly: 1.7.4
@@ -6686,7 +6622,7 @@ snapshots:
       fs-extra: 11.3.0
       globby: 14.1.0
       gzip-size: 7.0.0
-      h3: 1.15.0
+      h3: 1.13.0
       hookable: 5.5.3
       httpxy: 0.1.7
       ioredis: 5.5.0
@@ -6761,8 +6697,6 @@ snapshots:
   node-forge@1.3.1: {}
 
   node-gyp-build@4.8.4: {}
-
-  node-mock-http@1.0.0: {}
 
   node-releases@2.0.19: {}
 
@@ -7335,32 +7269,32 @@ snapshots:
 
   space-separated-tokens@2.0.2: {}
 
-  sst-darwin-arm64@3.8.8:
+  sst-darwin-arm64@3.9.0:
     optional: true
 
-  sst-darwin-x64@3.8.8:
+  sst-darwin-x64@3.9.0:
     optional: true
 
-  sst-linux-arm64@3.8.8:
+  sst-linux-arm64@3.9.0:
     optional: true
 
-  sst-linux-x64@3.8.8:
+  sst-linux-x64@3.9.0:
     optional: true
 
-  sst-linux-x86@3.8.8:
+  sst-linux-x86@3.9.0:
     optional: true
 
-  sst@3.8.8:
+  sst@3.9.0:
     dependencies:
       aws4fetch: 1.0.20
       jose: 5.2.3
       openid-client: 5.6.4
     optionalDependencies:
-      sst-darwin-arm64: 3.8.8
-      sst-darwin-x64: 3.8.8
-      sst-linux-arm64: 3.8.8
-      sst-linux-x64: 3.8.8
-      sst-linux-x86: 3.8.8
+      sst-darwin-arm64: 3.9.0
+      sst-darwin-x64: 3.9.0
+      sst-linux-arm64: 3.9.0
+      sst-linux-x64: 3.9.0
+      sst-linux-x86: 3.9.0
 
   stable-hash@0.0.4: {}
 
@@ -7715,7 +7649,7 @@ snapshots:
       anymatch: 3.1.3
       chokidar: 3.6.0
       destr: 2.0.3
-      h3: 1.15.0
+      h3: 1.13.0
       lru-cache: 10.4.3
       node-fetch-native: 1.6.6
       ofetch: 1.4.1
@@ -7783,7 +7717,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vinxi@0.4.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(terser@5.39.0)(typescript@5.7.3):
+  vinxi@0.5.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(jiti@2.4.2)(terser@5.39.0)(typescript@5.7.3):
     dependencies:
       '@babel/core': 7.26.8
       '@babel/plugin-syntax-jsx': 7.25.9(@babel/core@7.26.8)
@@ -7794,14 +7728,14 @@ snapshots:
       chokidar: 3.6.0
       citty: 0.1.6
       consola: 3.4.0
-      crossws: 0.2.4
+      crossws: 0.3.4
       dax-sh: 0.39.2
       defu: 6.1.4
       es-module-lexer: 1.6.0
       esbuild: 0.25.0
       fast-glob: 3.3.3
       get-port-please: 3.1.2
-      h3: 1.11.1
+      h3: 1.13.0
       hookable: 5.5.3
       http-proxy: 1.18.1
       micromatch: 4.0.8
@@ -7817,7 +7751,7 @@ snapshots:
       unctx: 2.4.1
       unenv: 1.10.0
       unstorage: 1.14.4(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)
-      vite: 5.4.14(@types/node@22.13.4)(terser@5.39.0)
+      vite: 6.1.0(@types/node@22.13.4)(jiti@2.4.2)(terser@5.39.0)
       zod: 3.24.2
     transitivePeerDependencies:
       - '@azure/app-configuration'
@@ -7844,6 +7778,7 @@ snapshots:
       - encoding
       - idb-keyval
       - ioredis
+      - jiti
       - less
       - lightningcss
       - mysql2
@@ -7855,10 +7790,11 @@ snapshots:
       - sugarss
       - supports-color
       - terser
+      - tsx
       - typescript
-      - uWebSockets.js
       - uploadthing
       - xml2js
+      - yaml
 
   vite-node@3.0.5(@types/node@22.13.4)(jiti@2.4.2)(terser@5.39.0):
     dependencies:
@@ -7895,16 +7831,6 @@ snapshots:
       '@testing-library/jest-dom': 6.6.3
     transitivePeerDependencies:
       - supports-color
-
-  vite@5.4.14(@types/node@22.13.4)(terser@5.39.0):
-    dependencies:
-      esbuild: 0.25.0
-      postcss: 8.5.2
-      rollup: 4.34.6
-    optionalDependencies:
-      '@types/node': 22.13.4
-      fsevents: 2.3.3
-      terser: 5.39.0
 
   vite@6.1.0(@types/node@22.13.4)(jiti@2.4.2)(terser@5.39.0):
     dependencies:
