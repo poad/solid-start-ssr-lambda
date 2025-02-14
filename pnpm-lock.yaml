@@ -15,8 +15,8 @@ importers:
   .:
     dependencies:
       sst:
-        specifier: 3.8.8
-        version: 3.8.8
+        specifier: 3.9.0
+        version: 3.9.0
     devDependencies:
       '@eslint/compat':
         specifier: ^1.2.6
@@ -58,10 +58,10 @@ importers:
         specifier: ^14.6.1
         version: 14.6.1(@testing-library/dom@10.4.0)
       '@vitest/coverage-v8':
-        specifier: ^2.1.9
+        specifier: ^2.1.8
         version: 2.1.9(vitest@2.1.9)
       '@vitest/ui':
-        specifier: ^2.1.9
+        specifier: ^2.1.8
         version: 2.1.9(vitest@2.1.9)
       eslint:
         specifier: ^9.20.1
@@ -106,7 +106,7 @@ importers:
         specifier: ^2.11.1
         version: 2.11.1(@testing-library/jest-dom@6.6.3)(solid-js@1.9.4)(vite@6.1.0(@types/node@22.13.4)(jiti@2.4.2)(terser@5.39.0))
       vitest:
-        specifier: ^2.1.9
+        specifier: ^2.1.8
         version: 2.1.9(@types/node@22.13.4)(@vitest/ui@2.1.9)(jsdom@26.0.0)(terser@5.39.0)
 
 packages:
@@ -2404,8 +2404,8 @@ packages:
     resolution: {integrity: sha512-ztqyC3kLto0e9WbNp0aeP+M3kTt+nbaIveGmUxAtZa+8iFgKLUOD4YKM5j+f3QD89bra7UeumolZHKuOXnTmeQ==}
     engines: {node: '>=8'}
 
-  html-to-image@1.11.12:
-    resolution: {integrity: sha512-rhfgxyBJ8wLGqetvYk0EmaiPQs+b5JqApb2ImZf46pt8QIw/UzGISXMXTZ/UARnU02TSrTmZMqF0ncIRa/4k4Q==}
+  html-to-image@1.11.13:
+    resolution: {integrity: sha512-cuOPoI7WApyhBElTTb9oqsawRvZ0rHhaHwghRLlTuffoD1B2aDemlCruLeZrUIIdvG7gs9xeELEPm6PhuASqrg==}
 
   html-void-elements@3.0.0:
     resolution: {integrity: sha512-bEqo66MRXsUGxWHV5IP0PUiAWwoEjba4VCzg0LjFJBpchPaTfyfCKTG6bc5F8ucKec3q5y6qOdGyYTSBEvhCrg==}
@@ -3501,33 +3501,33 @@ packages:
   space-separated-tokens@2.0.2:
     resolution: {integrity: sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==}
 
-  sst-darwin-arm64@3.8.8:
-    resolution: {integrity: sha512-FJyYk63zZ89pXf/PZnZrOHTU9reuP2IE6kdFlakxukS0SX2sGHv0BXkoiS1f+9p3VDf+74+VKDrZGn1ECIiNmA==}
+  sst-darwin-arm64@3.9.0:
+    resolution: {integrity: sha512-m+ulk47abORKnv3+k+TIfCZ45D9rwBBIBEXWOXdAnamDQAvAxTDG8XWv+Lw2VwWI9pvs6Xgccgf7irDp8zL9Jg==}
     cpu: [arm64]
     os: [darwin]
 
-  sst-darwin-x64@3.8.8:
-    resolution: {integrity: sha512-0jNpXXkSW1pGI5vVg2je8mlmCegjJJmWVSrUXb6wJqSVYySuoZIwqQB5jvCePts3YM+/NnW5INeUFurbC6j/dQ==}
+  sst-darwin-x64@3.9.0:
+    resolution: {integrity: sha512-UTlLn3XX3scdRGhUkHZUXBIXHPvejTs7G+LikM7ypBfsE/226F9H9XX5zLNalGQBQ1CxWuQd5ykggEvgkVJiEg==}
     cpu: [x64]
     os: [darwin]
 
-  sst-linux-arm64@3.8.8:
-    resolution: {integrity: sha512-vl/H5EDkHeFW2nnOIEOUV/oNE4ns/I1F/KtK/faDY2VotxuPjT3Uvtqdg1A2mItvyx1FKwI8/KgP9CytVagRrw==}
+  sst-linux-arm64@3.9.0:
+    resolution: {integrity: sha512-TVeZjw8Eyrgdynar7OimW45URFrQxO9OyqpKRq4M2uRJsfmbVnE/v2MZhM8n1Imz6OtemQUqZSaquQQy847ZXA==}
     cpu: [arm64]
     os: [linux]
 
-  sst-linux-x64@3.8.8:
-    resolution: {integrity: sha512-S+iCcFhtGqK5px0+oJxic5TSHLZdulWfy+qYzSMl+e3evQGIcJmwHjLuEwlmyuwwgs0+dZYt9NYhLTKyUThLDA==}
+  sst-linux-x64@3.9.0:
+    resolution: {integrity: sha512-oUfCgpBFvMKFFJQxM6x7o0d9D7muzD6Z3NbLzg9ORHHNZvofSnVl7AjuEA7KNQlczue1wcRqqmo6X0+aKvcdpQ==}
     cpu: [x64]
     os: [linux]
 
-  sst-linux-x86@3.8.8:
-    resolution: {integrity: sha512-lfGHfbL7U196Y8MtqCvBNOz9qaNsWGldPj6HLR6KsW5LTNxFYYehGVebB+tj0uK3gjWPou1bGPASt9/Q69VwIQ==}
+  sst-linux-x86@3.9.0:
+    resolution: {integrity: sha512-Sq7UTyNhp22n2PN7HneCHR3Fm7e+u1cOcbgFD58BRqhzafm5SV173P3p/E2b2vPsf07uJagOhHtII2eim4w08A==}
     cpu: [x86]
     os: [linux]
 
-  sst@3.8.8:
-    resolution: {integrity: sha512-1de39fi3m2TdY2v/C/58qRx1fXbM8Nmg2+7B7J2fXabYTxYRP/ky3K7Jk/9aS649U5iI2Gmnvs3ltW7wO1/8FA==}
+  sst@3.9.0:
+    resolution: {integrity: sha512-YRxtTkWNq9CHzTLPsNvoJ+gQYd4d0BFX5kKg9Oll7hI1orI5mqD2WqtQeTve7TsH9JAQPbRAlXqKkvpWnQOl7A==}
     hasBin: true
 
   stable-hash@0.0.4:
@@ -4985,7 +4985,7 @@ snapshots:
       '@vinxi/server-components': 0.5.0(vinxi@0.4.3(@types/node@22.13.4)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(terser@5.39.0)(typescript@5.7.3))
       defu: 6.1.4
       error-stack-parser: 2.1.4
-      html-to-image: 1.11.12
+      html-to-image: 1.11.13
       radix3: 1.1.2
       seroval: 1.2.1
       seroval-plugins: 1.2.1(seroval@1.2.1)
@@ -6573,7 +6573,7 @@ snapshots:
 
   html-tags@3.3.1: {}
 
-  html-to-image@1.11.12: {}
+  html-to-image@1.11.13: {}
 
   html-void-elements@3.0.0: {}
 
@@ -7810,32 +7810,32 @@ snapshots:
 
   space-separated-tokens@2.0.2: {}
 
-  sst-darwin-arm64@3.8.8:
+  sst-darwin-arm64@3.9.0:
     optional: true
 
-  sst-darwin-x64@3.8.8:
+  sst-darwin-x64@3.9.0:
     optional: true
 
-  sst-linux-arm64@3.8.8:
+  sst-linux-arm64@3.9.0:
     optional: true
 
-  sst-linux-x64@3.8.8:
+  sst-linux-x64@3.9.0:
     optional: true
 
-  sst-linux-x86@3.8.8:
+  sst-linux-x86@3.9.0:
     optional: true
 
-  sst@3.8.8:
+  sst@3.9.0:
     dependencies:
       aws4fetch: 1.0.20
       jose: 5.2.3
       openid-client: 5.6.4
     optionalDependencies:
-      sst-darwin-arm64: 3.8.8
-      sst-darwin-x64: 3.8.8
-      sst-linux-arm64: 3.8.8
-      sst-linux-x64: 3.8.8
-      sst-linux-x86: 3.8.8
+      sst-darwin-arm64: 3.9.0
+      sst-darwin-x64: 3.9.0
+      sst-linux-arm64: 3.9.0
+      sst-linux-x64: 3.9.0
+      sst-linux-x86: 3.9.0
 
   stable-hash@0.0.4: {}
 
