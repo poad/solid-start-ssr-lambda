@@ -6,7 +6,6 @@ import * as lambda from 'aws-cdk-lib/aws-lambda';
 import * as awslogs from 'aws-cdk-lib/aws-logs';
 import * as iam from 'aws-cdk-lib/aws-iam';
 import { buildFrontend } from './process/setup';
-import { NitroAsset } from 'nitro-aws-cdk-lib';
 
 export interface Config extends cdk.StackProps {
   cloudfront: {
@@ -49,14 +48,10 @@ export class CloudfrontCdnTemplateStack extends cdk.Stack {
       applicationLogLevelV2: lambda.ApplicationLogLevel.TRACE,
     };
 
-    const nitro = new NitroAsset(this, "NitroAsset", {
-      path: "../",
-    });
-
     const fn = new lambda.Function(this, 'Lambda', {
       runtime: lambda.Runtime.NODEJS_22_X,
       architecture: lambda.Architecture.ARM_64,
-      code: nitro.serverHandler,
+      code: lambda.Code.fromAsset('./.output/server/index.mjs'),
       handler: 'index.handler',
       functionName,
       retryAttempts: 0,
