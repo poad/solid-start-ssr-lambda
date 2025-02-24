@@ -30,3 +30,6 @@ Thumbs.db
 
 # sst
 .sst
+
+{bin,lib}/**/*.d.ts
+{bin,lib}/**/*.js
