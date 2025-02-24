@@ -20,6 +20,9 @@ importers:
       constructs:
         specifier: ^10.4.2
         version: 10.4.2
+      nitro-aws-cdk-lib:
+        specifier: ^0.0.29
+        version: 0.0.29(aws-cdk-lib@2.180.0(constructs@10.4.2))(constructs@10.4.2)
       source-map-support:
         specifier: ^0.5.21
         version: 0.5.21
@@ -63,6 +66,9 @@ importers:
       '@testing-library/user-event':
         specifier: ^14.6.1
         version: 14.6.1(@testing-library/dom@10.4.0)
+      '@types/node':
+        specifier: ^22.13.5
+        version: 22.13.5
       '@vitest/coverage-v8':
         specifier: ^3.0.6
         version: 3.0.6(vitest@3.0.6)
@@ -2706,6 +2712,12 @@ packages:
 
   natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
+
+  nitro-aws-cdk-lib@0.0.29:
+    resolution: {integrity: sha512-TCeOG1rti/1TKW+4eEE5YUJBlXyDOV/9huRaejW38qqfFRjnffG4srkAV8QzO1J/8w8FCs/ej0QfXjwMz7q0kw==}
+    peerDependencies:
+      aws-cdk-lib: ^2.104.0
+      constructs: ^10.0.5
 
   nitropack@2.10.4:
     resolution: {integrity: sha512-sJiG/MIQlZCVSw2cQrFG1H6mLeSqHlYfFerRjLKz69vUfdu0EL2l0WdOxlQbzJr3mMv/l4cOlCCLzVRzjzzF/g==}
@@ -6689,6 +6701,11 @@ snapshots:
   nanoid@3.3.8: {}
 
   natural-compare@1.4.0: {}
+
+  nitro-aws-cdk-lib@0.0.29(aws-cdk-lib@2.180.0(constructs@10.4.2))(constructs@10.4.2):
+    dependencies:
+      aws-cdk-lib: 2.180.0(constructs@10.4.2)
+      constructs: 10.4.2
 
   nitropack@2.10.4(aws4fetch@1.0.20)(typescript@5.7.3):
     dependencies:
