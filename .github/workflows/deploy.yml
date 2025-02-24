@@ -44,7 +44,14 @@ jobs:
         run_install: |
           - recursive: true
             args: [--no-frozen-lockfile]
-          - args: [--global, esbuild]
+          - args: [--global, esbuild, aws-cdk]
 
     - name: deploy
-      run: pnpm dlx sst@latest deploy --stage production
+      env:
+        stage: ${{ github.event_name == 'pull_request' && 'preview' || 'prod' }}
+      run: |
+        if [ $stage == 'preview' ]; then
+          cdk deploy -c suffix=preview
+        else
+          cdk deploy
+        fi
