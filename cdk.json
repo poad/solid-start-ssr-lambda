@@ -1,0 +1,32 @@
+{
+  "app": "pnpm dlx tsx bin/cdk.ts",
+  "watch": {
+    "include": [
+      "**"
+    ],
+    "exclude": [
+      "README.md",
+      "cdk*.json",
+      "**/*.d.ts",
+      "**/*.js",
+      "tsconfig.json",
+      "package*.json",
+      "yarn.lock",
+      "node_modules",
+      "test",
+      "eslint.config.mjs"
+    ]
+  },
+  "requireApproval": "never",
+  "versionReporting": false,
+  "pathMetadata": false,
+  "context": {
+    "default": {
+      "stackName": "solid-start-ssr-lambda",
+      "bucketName": "solid-start-ssr-lambda",
+      "cloudfront": {
+        "comment": "Example SolidStart SSR Lambda"
+      }
+    }
+  }
+}
