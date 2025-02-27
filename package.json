@@ -21,10 +21,10 @@
     "@solidjs/router": "^0.15.3",
     "@solidjs/start": "^1.1.1",
     "@solidjs/testing-library": "^0.8.10",
-    "@stylistic/eslint-plugin": "^4.0.1",
-    "@stylistic/eslint-plugin-js": "^4.0.1",
-    "@stylistic/eslint-plugin-plus": "^4.0.1",
-    "@stylistic/eslint-plugin-ts": "^4.0.1",
+    "@stylistic/eslint-plugin": "^4.1.0",
+    "@stylistic/eslint-plugin-js": "^4.1.0",
+    "@stylistic/eslint-plugin-plus": "^4.1.0",
+    "@stylistic/eslint-plugin-ts": "^4.1.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/user-event": "^14.6.1",
     "@vitest/coverage-v8": "^3.0.7",
@@ -36,17 +36,17 @@
     "eslint-plugin-solid": "^0.14.5",
     "globals": "^16.0.0",
     "jsdom": "^26.0.0",
-    "pnpm": "^10.5.0",
+    "pnpm": "^10.5.2",
     "solid-js": "^1.9.5",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.25.0",
     "vinxi": "^0.5.3",
     "vite": "^6.2.0",
-    "vite-plugin-solid": "^2.11.2",
+    "vite-plugin-solid": "^2.11.4",
     "vitest": "^3.0.7"
   },
   "dependencies": {
-    "sst": "3.9.10"
+    "sst": "3.9.15"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
