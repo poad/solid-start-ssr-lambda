@@ -12,8 +12,8 @@ importers:
   .:
     dependencies:
       sst:
-        specifier: 3.9.15
-        version: 3.9.15
+        specifier: 3.9.16
+        version: 3.9.16
     devDependencies:
       '@eslint/compat':
         specifier: ^1.2.7
@@ -100,8 +100,8 @@ importers:
         specifier: ^6.2.0
         version: 6.2.0(@types/node@22.13.5)(jiti@2.4.2)(terser@5.39.0)
       vite-plugin-solid:
-        specifier: ^2.11.4
-        version: 2.11.4(@testing-library/jest-dom@6.6.3)(solid-js@1.9.5)(vite@6.2.0(@types/node@22.13.5)(jiti@2.4.2)(terser@5.39.0))
+        specifier: ^2.11.6
+        version: 2.11.6(@testing-library/jest-dom@6.6.3)(solid-js@1.9.5)(vite@6.2.0(@types/node@22.13.5)(jiti@2.4.2)(terser@5.39.0))
       vitest:
         specifier: ^3.0.7
         version: 3.0.7(@types/node@22.13.5)(@vitest/ui@3.0.7)(jiti@2.4.2)(jsdom@26.0.0)(terser@5.39.0)
@@ -1637,8 +1637,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  electron-to-chromium@1.5.106:
-    resolution: {integrity: sha512-12keJGdXQWPnfVOu6/6ZzZgPPNodiDOSe3LjA8qk2yXTjnCnw2LeGUsAmtlNAmH4UW0K7tOLcz0j9lI2eJCJRA==}
+  electron-to-chromium@1.5.108:
+    resolution: {integrity: sha512-tiGxpQmvXBEzrfU5ertmbCV/nG5yqCkC1G4T1SIKP335Y5rjXzPWmijR6XcoGXZvVoo4dknfdNe4Tl7lcIROLg==}
 
   emoji-regex-xs@1.0.0:
     resolution: {integrity: sha512-LRlerrMYoIDrT6jgpeZ2YYl/L8EulRTt5hQcYjy5AInh7HWXKimpqx68aknBFpGL2+/IcogTcaydJEgaTmOpDg==}
@@ -2468,8 +2468,8 @@ packages:
     resolution: {integrity: sha512-I8oW2+QL5KJo8zXNWX046M134WchxsXC7SawLPvRQpogCbkyQIaFxPE89A2HiwR7vAK2Dm2ERBAmyjTYGYEpBg==}
     hasBin: true
 
-  local-pkg@1.0.0:
-    resolution: {integrity: sha512-bbgPw/wmroJsil/GgL4qjDzs5YLTBMQ99weRsok1XCDccQeehbHA/I1oRvk2NPtr7KGZgT/Y5tPRnAtMqeG2Kg==}
+  local-pkg@1.1.0:
+    resolution: {integrity: sha512-xbZBuX6gYIWrlLmZG43aAVer4ocntYO09vPy9lxd6Ns8DnR4U7N+IIeDkubinqFOHHzoMlPxTxwo0jhE7oYjAw==}
     engines: {node: '>=14'}
 
   locate-path@6.0.0:
@@ -2548,8 +2548,8 @@ packages:
   micromark-util-symbol@2.0.1:
     resolution: {integrity: sha512-vs5t8Apaud9N28kgCrRUdEed4UJ+wWNvicHLPxCa9ENlYuAY31M0ETy5y1vA33YoNPDFTghEbnh6efaE8h4x0Q==}
 
-  micromark-util-types@2.0.1:
-    resolution: {integrity: sha512-534m2WhVTddrcKVepwmVEVnUAmtrx9bfIjNoQHRqfnvdaHQiFytEhJoTgpWJvDEXCO5gLTQh3wYC1PgOJA4NSQ==}
+  micromark-util-types@2.0.2:
+    resolution: {integrity: sha512-Yw0ECSpJoViF1qTU4DC6NwtC4aWGt1EkzaQB8KPPyCRR8z9TWeV0HbEFGTO+ZY1wB22zmxnJqhPyTpOVCpeHTA==}
 
   micromatch@4.0.8:
     resolution: {integrity: sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==}
@@ -2910,6 +2910,9 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
+  quansync@0.2.2:
+    resolution: {integrity: sha512-PrJjqc5Sn6Jv3vlIA9LQs0XdyhCTWrFddMgNP8mGyh3OiMh6ofOES4PRIApcfOZ0wLE2jJN+5/2eyOvzTv9tqw==}
+
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
@@ -3195,33 +3198,33 @@ packages:
   space-separated-tokens@2.0.2:
     resolution: {integrity: sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==}
 
-  sst-darwin-arm64@3.9.15:
-    resolution: {integrity: sha512-86ATu7V9gsud0WNcv8Lnckqhx07imLVYC2k7ppd2+UhJczhLNzgDV+7PKFpOySJ0JKIVp06wJThuBbMI9hFjSg==}
+  sst-darwin-arm64@3.9.16:
+    resolution: {integrity: sha512-nDTVeiJcHTUoArSy2K1TVQdQnw7xo/OzTeAJlXcpMCN9BnTCIF1WNcclDhIK/r4XSfPLYi+Z+OXrhJCrMZqU+g==}
     cpu: [arm64]
     os: [darwin]
 
-  sst-darwin-x64@3.9.15:
-    resolution: {integrity: sha512-vEMy1W6Q1F3tx6EMZkJaBcyD5LUx1FB1UmzAaIefjZ08xbFr/d37+LDXocts2bexE8vXOreHkTQDcM+HFpzEUw==}
+  sst-darwin-x64@3.9.16:
+    resolution: {integrity: sha512-TyGB7cDVyFp4LjaNctKw7JAossXoIkZT3h9UXeOpIVQNFnt91LjRVDfHd/6tUCZJgOvMWW0BnruakYxyGLHITQ==}
     cpu: [x64]
     os: [darwin]
 
-  sst-linux-arm64@3.9.15:
-    resolution: {integrity: sha512-ZLuICXqUqdizGWjoU2xbPgBkokdjlXWxfz8t+Sh9xno6ZVGVRYkct29EQ3HPoDjJ4kcEeq877Ii/24NKiteoww==}
+  sst-linux-arm64@3.9.16:
+    resolution: {integrity: sha512-CveOx8LxJoaIqDXvH8fVjTR3dDc5W/0UnXVxswC7cAJcEZ8yTsnpYCkjmD9mcvd5ydz0QUMRHW51LvyIMi/Kxw==}
     cpu: [arm64]
     os: [linux]
 
-  sst-linux-x64@3.9.15:
-    resolution: {integrity: sha512-naVEwAS47h2rbs6HzVLlj/xkrkVCQRGVyPRVxrJieQx3/26ej3OQHC4w1QPL4+bjGO347WmWvW9bqXP7SRlByQ==}
+  sst-linux-x64@3.9.16:
+    resolution: {integrity: sha512-zqGddBZjf5hnRuksnoLnQBvWU4Mm8rpC/NocXP3qdjEHfYEb1PA9gV/9m7gKWtAc57bkx4xBBK6giXkIJLzWdg==}
     cpu: [x64]
     os: [linux]
 
-  sst-linux-x86@3.9.15:
-    resolution: {integrity: sha512-SuaSB0mnpuY0p6yQ24R7kPAg+n8cnnkf1Tt8/qt6478Fm63bST3pZ4egZJr8uRdnAaGjZ5Xg1cYluM0vsmKzOw==}
+  sst-linux-x86@3.9.16:
+    resolution: {integrity: sha512-htaDCB7hnbL3oMPIyj6/0Ivv2K1WzoCqFEEE4szYTx8iQt48axP3yBCPPdErKelQcIsc/H0QjhKmv4HVN2Gbcg==}
     cpu: [x86]
     os: [linux]
 
-  sst@3.9.15:
-    resolution: {integrity: sha512-4FoAzY0MYGZjri+jwsB5fehAaQaq47IT3W94a5rRaWpEOu4mI/H03XhcH4I+HU1TLJJ9v0gXXtwEY1tkvNNkNg==}
+  sst@3.9.16:
+    resolution: {integrity: sha512-eLeEMbAv0ICLJoqinz6JzNUni/4Zl6mH4Cn5myqYE8XEJqRTSlbZBS+6nVd0HprFmMso6ERqPqV268DGhAcBmw==}
     hasBin: true
 
   stable-hash@0.0.4:
@@ -3382,11 +3385,11 @@ packages:
     resolution: {integrity: sha512-n1cw8k1k0x4pgA2+9XrOkFydTerNcJ1zWCO5Nn9scWHTD+5tp8dghT2x1uduQePZTZgd3Tupf+x9BxJjeJi77Q==}
     engines: {node: '>=14.0.0'}
 
-  tldts-core@6.1.78:
-    resolution: {integrity: sha512-jS0svNsB99jR6AJBmfmEWuKIgz91Haya91Z43PATaeHJ24BkMoNRb/jlaD37VYjb0mYf6gRL/HOnvS1zEnYBiw==}
+  tldts-core@6.1.79:
+    resolution: {integrity: sha512-HM+Ud/2oQuHt4I43Nvjc213Zji/z25NSH5OkJskJwHXNtYh9DTRlHMDFhms9dFMP7qyve/yVaXFIxmcJ7TdOjw==}
 
-  tldts@6.1.78:
-    resolution: {integrity: sha512-fSgYrW0ITH0SR/CqKMXIruYIPpNu5aDgUp22UhYoSrnUQwc7SBqifEBFNce7AAcygUPBo6a/gbtcguWdmko4RQ==}
+  tldts@6.1.79:
+    resolution: {integrity: sha512-wjlYwK8lC/WcywLWf3A7qbK07SexezXjTRVwuPWXHvcjD7MnpPS2RXY5rLO3g12a8CNc7Y7jQRQsV7XyuBZjig==}
     hasBin: true
 
   to-regex-range@5.0.1:
@@ -3632,8 +3635,8 @@ packages:
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
 
-  vite-plugin-solid@2.11.4:
-    resolution: {integrity: sha512-qTy8FbA1oAwIaCl8+lmAJwMZ9fR7UcwQ68nVuX4VH6b1l059MrbKffgmJharcMJhqD/yJ+pD/EdSna6HEddEmw==}
+  vite-plugin-solid@2.11.6:
+    resolution: {integrity: sha512-Sl5CTqJTGyEeOsmdH6BOgalIZlwH3t4/y0RQuFLMGnvWMBvxb4+lq7x3BSiAw6etf0QexfNJW7HSOO/Qf7pigg==}
     peerDependencies:
       '@testing-library/jest-dom': ^5.16.6 || ^5.17.0 || ^6.*
       solid-js: ^1.7.2
@@ -4557,7 +4560,7 @@ snapshots:
       terracotta: 1.0.6(solid-js@1.9.5)
       tinyglobby: 0.2.12
       vinxi: 0.5.3(@types/node@22.13.5)(aws4fetch@1.0.20)(db0@0.2.4)(ioredis@5.5.0)(jiti@2.4.2)(terser@5.39.0)(typescript@5.7.3)
-      vite-plugin-solid: 2.11.4(@testing-library/jest-dom@6.6.3)(solid-js@1.9.5)(vite@6.2.0(@types/node@22.13.5)(jiti@2.4.2)(terser@5.39.0))
+      vite-plugin-solid: 2.11.6(@testing-library/jest-dom@6.6.3)(solid-js@1.9.5)(vite@6.2.0(@types/node@22.13.5)(jiti@2.4.2)(terser@5.39.0))
     transitivePeerDependencies:
       - '@testing-library/jest-dom'
       - '@types/node'
@@ -5193,7 +5196,7 @@ snapshots:
   browserslist@4.24.4:
     dependencies:
       caniuse-lite: 1.0.30001701
-      electron-to-chromium: 1.5.106
+      electron-to-chromium: 1.5.108
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.24.4)
 
@@ -5504,7 +5507,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.106: {}
+  electron-to-chromium@1.5.108: {}
 
   emoji-regex-xs@1.0.0: {}
 
@@ -6488,10 +6491,11 @@ snapshots:
       untun: 0.1.3
       uqr: 0.1.2
 
-  local-pkg@1.0.0:
+  local-pkg@1.1.0:
     dependencies:
       mlly: 1.7.4
       pkg-types: 1.3.1
+      quansync: 0.2.2
 
   locate-path@6.0.0:
     dependencies:
@@ -6564,7 +6568,7 @@ snapshots:
   micromark-util-character@2.1.1:
     dependencies:
       micromark-util-symbol: 2.0.1
-      micromark-util-types: 2.0.1
+      micromark-util-types: 2.0.2
 
   micromark-util-encode@2.0.1: {}
 
@@ -6576,7 +6580,7 @@ snapshots:
 
   micromark-util-symbol@2.0.1: {}
 
-  micromark-util-types@2.0.1: {}
+  micromark-util-types@2.0.2: {}
 
   micromatch@4.0.8:
     dependencies:
@@ -6983,6 +6987,8 @@ snapshots:
 
   punycode@2.3.1: {}
 
+  quansync@0.2.2: {}
+
   queue-microtask@1.2.3: {}
 
   radix3@1.1.2: {}
@@ -7335,32 +7341,32 @@ snapshots:
 
   space-separated-tokens@2.0.2: {}
 
-  sst-darwin-arm64@3.9.15:
+  sst-darwin-arm64@3.9.16:
     optional: true
 
-  sst-darwin-x64@3.9.15:
+  sst-darwin-x64@3.9.16:
     optional: true
 
-  sst-linux-arm64@3.9.15:
+  sst-linux-arm64@3.9.16:
     optional: true
 
-  sst-linux-x64@3.9.15:
+  sst-linux-x64@3.9.16:
     optional: true
 
-  sst-linux-x86@3.9.15:
+  sst-linux-x86@3.9.16:
     optional: true
 
-  sst@3.9.15:
+  sst@3.9.16:
     dependencies:
       aws4fetch: 1.0.20
       jose: 5.2.3
       openid-client: 5.6.4
     optionalDependencies:
-      sst-darwin-arm64: 3.9.15
-      sst-darwin-x64: 3.9.15
-      sst-linux-arm64: 3.9.15
-      sst-linux-x64: 3.9.15
-      sst-linux-x86: 3.9.15
+      sst-darwin-arm64: 3.9.16
+      sst-darwin-x64: 3.9.16
+      sst-linux-arm64: 3.9.16
+      sst-linux-x64: 3.9.16
+      sst-linux-x86: 3.9.16
 
   stable-hash@0.0.4: {}
 
@@ -7532,11 +7538,11 @@ snapshots:
 
   tinyspy@3.0.2: {}
 
-  tldts-core@6.1.78: {}
+  tldts-core@6.1.79: {}
 
-  tldts@6.1.78:
+  tldts@6.1.79:
     dependencies:
-      tldts-core: 6.1.78
+      tldts-core: 6.1.79
 
   to-regex-range@5.0.1:
     dependencies:
@@ -7548,7 +7554,7 @@ snapshots:
 
   tough-cookie@5.1.1:
     dependencies:
-      tldts: 6.1.78
+      tldts: 6.1.79
 
   tr46@0.0.3: {}
 
@@ -7663,7 +7669,7 @@ snapshots:
       escape-string-regexp: 5.0.0
       estree-walker: 3.0.3
       fast-glob: 3.3.3
-      local-pkg: 1.0.0
+      local-pkg: 1.1.0
       magic-string: 0.30.17
       mlly: 1.7.4
       pathe: 2.0.3
@@ -7883,7 +7889,7 @@ snapshots:
       - tsx
       - yaml
 
-  vite-plugin-solid@2.11.4(@testing-library/jest-dom@6.6.3)(solid-js@1.9.5)(vite@6.2.0(@types/node@22.13.5)(jiti@2.4.2)(terser@5.39.0)):
+  vite-plugin-solid@2.11.6(@testing-library/jest-dom@6.6.3)(solid-js@1.9.5)(vite@6.2.0(@types/node@22.13.5)(jiti@2.4.2)(terser@5.39.0)):
     dependencies:
       '@babel/core': 7.26.9
       '@types/babel__core': 7.20.5

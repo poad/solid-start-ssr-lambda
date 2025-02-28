@@ -42,11 +42,11 @@
     "typescript-eslint": "^8.25.0",
     "vinxi": "^0.5.3",
     "vite": "^6.2.0",
-    "vite-plugin-solid": "^2.11.4",
+    "vite-plugin-solid": "^2.11.6",
     "vitest": "^3.0.7"
   },
   "dependencies": {
-    "sst": "3.9.15"
+    "sst": "3.9.16"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
