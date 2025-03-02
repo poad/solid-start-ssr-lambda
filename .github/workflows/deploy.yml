@@ -44,7 +44,42 @@ jobs:
         run_install: |
           - recursive: true
             args: [--no-frozen-lockfile]
-          - args: [--global, esbuild]
+          - args: [--global, esbuild, aws-cdk]
+
+    - name: destroy preview
+      working-directory: cdk
+      if: github.event_name == 'push'
+      run: cdk deploy -f -c suffix=preview
+
+    - name: deploy preview
+      working-directory: cdk
+      if: github.event_name == 'pull_request'
+      run: cdk deploy -c suffix=preview
 
     - name: deploy
-      run: pnpm dlx sst@latest deploy --stage production
+      working-directory: cdk
+      if: github.event_name != 'pull_request'
+      run: cdk deploy
+
+    - name: resolve stack name
+      id: resolve-stack-name
+      run: |
+        if [ "${{ github.event_name }}" = "pull_request" ]; then
+          echo "stack-name=solid-start-ssr-lambda-preview-stack" >> "$GITHUB_OUTPUT"
+        else
+          echo "stack-name=solid-start-ssr-lambda-stack" >> "$GITHUB_OUTPUT"
+        fi
+
+    - name: Get URL
+      id: get-url
+      uses: ./.github/actions/get-stack-output
+      with:
+        stack-name: ${{ steps.resolve-stack-name.outputs.stack-name }}
+        output-key: Output
+
+    - name: Verify HTTP Status
+      env:
+        URL: ${{ steps.get-url.outputs.output-value }}
+      run: |
+        CODE=$(curl -w "%{http_code}\n" -o /dev/null -sSL "$URL")
+        if [ "$CODE" != "200" ]; then exit 1; fi

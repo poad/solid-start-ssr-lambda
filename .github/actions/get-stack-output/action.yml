@@ -1,0 +1,28 @@
+name: 'Get Stack Output Value of AWS CloudFormation'
+description: 'Greet someone'
+inputs:
+  stack-name:
+    description: 'name of target CloudFormation stack'
+    required: true
+  output-key:
+    description: 'key name of target CloudFormation stack output'
+    required: true
+outputs:
+  output-value:
+    description: "OutputValue"
+    value: ${{ steps.describe-stacks.outputs.output-value }}
+
+runs:
+  using: "composite"
+  steps:
+    - name: Describe Stacks
+      id: describe-stacks
+      run: |
+        OUTPUT_VALUE=$(aws cloudformation describe-stacks --stack-name ${{ inputs.stack-name }} --query "Stacks[].Outputs[?OutputKey == \`${{ inputs.output-key }}\`].OutputValue[]"  --output text)
+        echo "output-value=$OUTPUT_VALUE" >> $GITHUB_OUTPUT
+      shell: bash
+
+    - name: Logging
+      run: |
+        echo "output-value=${{ steps.describe-stacks.outputs.output-value }}"
+      shell: bash
