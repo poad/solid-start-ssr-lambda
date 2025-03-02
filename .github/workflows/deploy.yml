@@ -48,8 +48,8 @@ jobs:
 
     - name: destroy preview
       working-directory: cdk
-      if: github.event_name == 'push'
-      run: cdk deploy -f -c suffix=preview
+      if: github.event_name != 'pull_request'
+      run: cdk destroy -f -c suffix=preview
 
     - name: deploy preview
       working-directory: cdk
