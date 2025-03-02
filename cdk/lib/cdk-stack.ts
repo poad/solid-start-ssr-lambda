@@ -24,7 +24,7 @@ export class CdkStack extends cdk.Stack {
       retention: logs.RetentionDays.ONE_DAY,
     });
 
-    const solidStartsDistPath = path.join(__dirname, '../../.output/server');
+    const solidStartsDistPath = path.join(__dirname, '../../app/.output/server');
 
     const handler = new lambda.Function(this, 'Handler', {
       functionName,

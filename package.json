@@ -2,7 +2,8 @@
   "name": "solid-start-ssr-lambda",
   "scripts": {
     "lint": "pnpm run -r --if-present --parallel lint",
-    "lint-fix": "pnpm run -r --if-present --parallel lint-fix"
+    "lint-fix": "pnpm run -r --if-present --parallel lint-fix",
+    "build": "pnpm run -r --if-present --parallel build"
   },
   "type": "module",
   "devDependencies": {
