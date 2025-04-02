@@ -14,7 +14,7 @@
   },
   "type": "module",
   "devDependencies": {
-    "@eslint/compat": "^1.2.7",
+    "@eslint/compat": "^1.2.8",
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.23.0",
     "@solidjs/meta": "^0.29.4",
@@ -36,7 +36,7 @@
     "eslint-plugin-solid": "^0.14.5",
     "globals": "^16.0.0",
     "jsdom": "^26.0.0",
-    "pnpm": "^10.7.0",
+    "pnpm": "^10.7.1",
     "solid-js": "^1.9.5",
     "typescript": "^5.8.2",
     "typescript-eslint": "^8.29.0",
