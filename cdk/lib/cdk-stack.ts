@@ -18,7 +18,7 @@ export class CdkStack extends cdk.Stack {
     buildFrontend();
 
     const functionName = `${name}-function`;
-    new logs.LogGroup(this, 'LogGroup', {
+    const logGroup = new logs.LogGroup(this, 'LogGroup', {
       logGroupName: `/aws/lambda/${functionName}`,
       removalPolicy: cdk.RemovalPolicy.DESTROY,
       retention: logs.RetentionDays.ONE_DAY,
@@ -34,6 +34,7 @@ export class CdkStack extends cdk.Stack {
       architecture: lambda.Architecture.ARM_64,
       memorySize: 256,
       timeout: cdk.Duration.seconds(30),
+      logGroup,
     });
     const url = handler.addFunctionUrl({
       authType: lambda.FunctionUrlAuthType.NONE,
