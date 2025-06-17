@@ -39,7 +39,7 @@
     "pnpm": "^10.12.1",
     "solid-js": "^1.9.7",
     "typescript": "^5.8.3",
-    "typescript-eslint": "^8.34.0",
+    "typescript-eslint": "^8.34.1",
     "vinxi": "^0.5.7",
     "vite": "^6.3.5",
     "vite-plugin-solid": "^2.11.6",
