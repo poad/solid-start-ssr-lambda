@@ -86,8 +86,8 @@ importers:
         specifier: ^0.15.3
         version: 0.15.3(solid-js@1.9.7)
       '@solidjs/start':
-        specifier: ^1.1.4
-        version: 1.1.4(@testing-library/jest-dom@6.6.3)(@types/node@24.0.3)(jiti@2.4.2)(solid-js@1.9.7)(terser@5.42.0)(tsx@4.20.3)(vinxi@0.5.7(@netlify/blobs@8.2.0)(@types/node@24.0.3)(aws4fetch@1.0.20)(db0@0.3.2)(ioredis@5.6.1)(jiti@2.4.2)(terser@5.42.0)(tsx@4.20.3))(vite@6.3.5(@types/node@24.0.3)(jiti@2.4.2)(terser@5.42.0)(tsx@4.20.3))
+        specifier: ^1.1.5
+        version: 1.1.5(@testing-library/jest-dom@6.6.3)(solid-js@1.9.7)(vinxi@0.5.7(@netlify/blobs@8.2.0)(@types/node@24.0.3)(aws4fetch@1.0.20)(db0@0.3.2)(ioredis@5.6.1)(jiti@2.4.2)(terser@5.42.0)(tsx@4.20.3))(vite@6.3.5(@types/node@24.0.3)(jiti@2.4.2)(terser@5.42.0)(tsx@4.20.3))
       '@solidjs/testing-library':
         specifier: ^0.8.10
         version: 0.8.10(@solidjs/router@0.15.3(solid-js@1.9.7))(solid-js@1.9.7)
@@ -177,8 +177,8 @@ importers:
         specifier: ^24.0.3
         version: 24.0.3
       aws-cdk:
-        specifier: ^2.1018.1
-        version: 2.1018.1
+        specifier: ^2.1019.1
+        version: 2.1019.1
       ts-node:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@24.0.3)(typescript@5.8.3)
@@ -234,8 +234,22 @@ packages:
     resolution: {integrity: sha512-ZGhA37l0e/g2s1Cnzdix0O3aLYm66eF8aufiVteOgnwxgnRP8GoyMj7VWsgWnQbVKXyge7hqrFh2K2TQM6t1Hw==}
     engines: {node: '>=6.9.0'}
 
+  '@babel/helper-annotate-as-pure@7.27.3':
+    resolution: {integrity: sha512-fXSwMQqitTGeHLBC08Eq5yXz2m37E4pJX1qAU1+2cNedz/ifv/bVXft90VeSav5nFO61EcNgwr0aJxbyPaWBPg==}
+    engines: {node: '>=6.9.0'}
+
   '@babel/helper-compilation-targets@7.27.2':
     resolution: {integrity: sha512-2+1thGUUWWjLTYTHZWK1n8Yga0ijBz1XAhUXcKy81rd5g6yh7hGqMp45v7cadSbEHc9G3OTv45SyneRN3ps4DQ==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/helper-create-class-features-plugin@7.27.1':
+    resolution: {integrity: sha512-QwGAmuvM17btKU5VqXfb+Giw4JcN0hjuufz3DYnpeVDvZLAObloM77bhMXiqry3Iio+Ai4phVRDwl6WU10+r5A==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0
+
+  '@babel/helper-member-expression-to-functions@7.27.1':
+    resolution: {integrity: sha512-E5chM8eWjTp/aNoVpcbfM7mLxu9XGLWYise2eBKGQomAk/Mb4XoxyqXTZbuTohbsl8EKqdlMhnDI2CCLfcs9wA==}
     engines: {node: '>=6.9.0'}
 
   '@babel/helper-module-imports@7.18.6':
@@ -252,8 +266,22 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0
 
+  '@babel/helper-optimise-call-expression@7.27.1':
+    resolution: {integrity: sha512-URMGH08NzYFhubNSGJrpUEphGKQwMQYBySzat5cAByY1/YgIRkULnIy3tAMeszlL/so2HbeilYloUmSpd7GdVw==}
+    engines: {node: '>=6.9.0'}
+
   '@babel/helper-plugin-utils@7.27.1':
     resolution: {integrity: sha512-1gn1Up5YXka3YYAHGKpbideQ5Yjf1tDa9qYcgysz+cNCXukyLl6DjPXhD3VRwSb8c0J9tA4b2+rHEZtc6R0tlw==}
+    engines: {node: '>=6.9.0'}
+
+  '@babel/helper-replace-supers@7.27.1':
+    resolution: {integrity: sha512-7EHz6qDZc8RYS5ElPoShMheWvEgERonFCs7IAonWLLUTXW59DP14bCZt89/GKyreYn8g3S83m21FelHKbeDCKA==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0
+
+  '@babel/helper-skip-transparent-expression-wrappers@7.27.1':
+    resolution: {integrity: sha512-Tub4ZKEXqbPjXgWLl2+3JpQAYBJ8+ikpQ2Ocj/q/r0LwE3UhENh7EUabyHjz2kCEsrRY83ew2DQdHluuiDQFzg==}
     engines: {node: '>=6.9.0'}
 
   '@babel/helper-string-parser@7.27.1':
@@ -285,6 +313,24 @@ packages:
 
   '@babel/plugin-syntax-typescript@7.27.1':
     resolution: {integrity: sha512-xfYCBMxveHrRMnAWl1ZlPXOZjzkN82THFvLhQhFXFt81Z5HnN+EtUkZhv/zcKpmT3fzmWZB0ywiBrbC3vogbwQ==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+
+  '@babel/plugin-transform-modules-commonjs@7.27.1':
+    resolution: {integrity: sha512-OJguuwlTYlN0gBZFRPqwOGNWssZjfIUdS7HMYtN8c1KmwpwHFBwTeFZrg9XZa+DFTitWOW5iTAG7tyCUPsCCyw==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+
+  '@babel/plugin-transform-typescript@7.27.1':
+    resolution: {integrity: sha512-Q5sT5+O4QUebHdbwKedFBEwRLb02zJ7r4A5Gg2hUoLuU3FjdMcyqcywqUrLCaDsFCxzokf7u9kuy7qz51YUuAg==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+
+  '@babel/preset-typescript@7.27.1':
+    resolution: {integrity: sha512-l7WfQfX0WK4M0v2RudjuQK4u99BS6yLHYEmdtVPP7lKV013zr9DygFuWNlnbvQ9LR+LS0Egz/XAvGx5U9MX0fQ==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -1020,10 +1066,10 @@ packages:
     peerDependencies:
       solid-js: ^1.8.6
 
-  '@solidjs/start@1.1.4':
-    resolution: {integrity: sha512-ma1TBYqoTju87tkqrHExMReM5Z/+DTXSmi30CCTavtwuR73Bsn4rVGqm528p4sL2koRMfAuBMkrhuttjzhL68g==}
+  '@solidjs/start@1.1.5':
+    resolution: {integrity: sha512-yQknZf4mN4ZFqG6HkDrDDuCg7NnphkQ0jevxXQdfJAffvMixwjTsp4zlFF95t+GIKANYmuGr+1vntGqkGu7tWw==}
     peerDependencies:
-      vinxi: ^0.5.3
+      vinxi: ^0.5.7
 
   '@solidjs/testing-library@0.8.10':
     resolution: {integrity: sha512-qdeuIerwyq7oQTIrrKvV0aL9aFeuwTd86VYD3afdq5HYEwoox1OBTJy4y8A3TFZr8oAR0nujYgCzY/8wgHGfeQ==}
@@ -1061,16 +1107,18 @@ packages:
     peerDependencies:
       eslint: '>=9.0.0'
 
-  '@tanstack/directive-functions-plugin@1.120.17':
-    resolution: {integrity: sha512-VQKnPQ1ftgO6YoMaHMSTYvpmi3pOunD/x9SXTAkhtIjNaTSHY24XfbykHbF0MUi6o+gOAkAt60c3ckT2xjgcgA==}
+  '@tanstack/directive-functions-plugin@1.121.21':
+    resolution: {integrity: sha512-B9z/HbF7gJBaRHieyX7f2uQ4LpLLAVAEutBZipH6w+CYD6RHRJvSVPzECGHF7icFhNWTiJQL2QR6K07s59yzEw==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      vite: '>=6.1.6'
+
+  '@tanstack/router-utils@1.121.21':
+    resolution: {integrity: sha512-u7ubq1xPBtNiU7Fm+EOWlVWdgFLzuKOa1thhqdscVn8R4dNMUd1VoOjZ6AKmLw201VaUhFtlX+u0pjzI6szX7A==}
     engines: {node: '>=12'}
 
-  '@tanstack/router-utils@1.120.17':
-    resolution: {integrity: sha512-emgT4FthaGtTRaRg9bsr0uaq3EHdl/flS4bKLuFaetiFTt8wk8EVU2a7EZlkaaAfLLDPaiGbP1S2DDaZQ7ci+Q==}
-    engines: {node: '>=12'}
-
-  '@tanstack/server-functions-plugin@1.120.17':
-    resolution: {integrity: sha512-KAje/boeSCSUVLKRxF/kXwE433LYoSuAHON/yojoK0jk/WO/Ie3TYS2tY0+532nqymGnGJ2bRKMMg6Gp58iaXg==}
+  '@tanstack/server-functions-plugin@1.121.21':
+    resolution: {integrity: sha512-a05fzK+jBGacsSAc1vE8an7lpBh4H0PyIEcivtEyHLomgSeElAJxm9E2It/0nYRZ5Lh23m0okbhzJNaYWZpAOg==}
     engines: {node: '>=12'}
 
   '@testing-library/dom@10.4.0':
@@ -1512,8 +1560,8 @@ packages:
     resolution: {integrity: sha512-bN798gFfQX+viw3R7yrGWRqnrN2oRkEkUjjl4JNn4E8GxxbjtG3FbrEIIY3l8/hrwUwIeCZvi4QuOTP4MErVug==}
     engines: {node: '>=12'}
 
-  ansis@3.17.0:
-    resolution: {integrity: sha512-0qWUglt9JEqLFr3w1I1pbrChn1grhaiAR2ocX1PP/flRmxgtwTzPFFFnfIlD6aMOLQZgSuCRlidD70lvx8yhzg==}
+  ansis@4.1.0:
+    resolution: {integrity: sha512-BGcItUBWSMRgOCe+SVZJ+S7yTRG0eGt9cXAHev72yuGcY23hnLA7Bky5L/xLyPINoSN95geovfBkqoTlNZYa7w==}
     engines: {node: '>=14'}
 
   anymatch@3.1.3:
@@ -1616,8 +1664,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.1018.1:
-    resolution: {integrity: sha512-kFPRox5kSm+ktJ451o0ng9rD+60p5Kt1CZIWw8kXnvqbsxN2xv6qbmyWSXw7sGVXVwqrRKVj+71/JeDr+LMAZw==}
+  aws-cdk@2.1019.1:
+    resolution: {integrity: sha512-G2jxKuTsYTrYZX80CDApCrKcZ+AuFxxd+b0dkb0KEkfUsela7RqrDGLm5wOzSCIc3iH6GocR8JDVZuJ+0nNuKg==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
 
@@ -1981,14 +2029,6 @@ packages:
   decimal.js@10.5.0:
     resolution: {integrity: sha512-8vDa8Qxvr/+d94hSh5P3IJwI5t8/c0KsMp+g8bNw9cY2icONa5aPfvKeieW1WlG0WQYwwhJ7mjui2xtiePQSXw==}
 
-  dedent@1.6.0:
-    resolution: {integrity: sha512-F1Z+5UCFpmQUzJa11agbyPVMbpgT/qA3/SKyJ1jyBgm7dUcUEa8v9JwDkerSQXfakBwFljIxhOJqGkjUwZ9FSA==}
-    peerDependencies:
-      babel-plugin-macros: ^3.1.0
-    peerDependenciesMeta:
-      babel-plugin-macros:
-        optional: true
-
   deep-eql@5.0.2:
     resolution: {integrity: sha512-h5k/5U50IJJFpzfL6nO9jaaumfjO/f2NjK/oYB2Djzm4p9L+3T9qWpZqZ2hAbLPuuYq9wrU08WQyBTL5GbPk5Q==}
     engines: {node: '>=6'}
@@ -2093,8 +2133,8 @@ packages:
     resolution: {integrity: sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==}
     engines: {node: '>=0.3.1'}
 
-  diff@7.0.0:
-    resolution: {integrity: sha512-PJWHUb1RFevKCwaFA9RlG5tCd+FO5iRh9A8HEtkmBH2Li03iJriB6m6JIN4rGz3K3JLawI7/veA1xzRKP6ISBw==}
+  diff@8.0.2:
+    resolution: {integrity: sha512-sSuxWU5j5SR9QQji/o2qMvqRNYRDOcBTgsJ/DeCf4iSN4gW+gNMXM7wFIP+fdXZxoNiAnHUTGjCr+TSWXdRDKg==}
     engines: {node: '>=0.3.1'}
 
   doctrine@2.1.0:
@@ -4716,6 +4756,10 @@ snapshots:
       '@jridgewell/trace-mapping': 0.3.25
       jsesc: 3.1.0
 
+  '@babel/helper-annotate-as-pure@7.27.3':
+    dependencies:
+      '@babel/types': 7.27.6
+
   '@babel/helper-compilation-targets@7.27.2':
     dependencies:
       '@babel/compat-data': 7.27.5
@@ -4723,6 +4767,26 @@ snapshots:
       browserslist: 4.25.0
       lru-cache: 5.1.1
       semver: 6.3.1
+
+  '@babel/helper-create-class-features-plugin@7.27.1(@babel/core@7.27.4)':
+    dependencies:
+      '@babel/core': 7.27.4
+      '@babel/helper-annotate-as-pure': 7.27.3
+      '@babel/helper-member-expression-to-functions': 7.27.1
+      '@babel/helper-optimise-call-expression': 7.27.1
+      '@babel/helper-replace-supers': 7.27.1(@babel/core@7.27.4)
+      '@babel/helper-skip-transparent-expression-wrappers': 7.27.1
+      '@babel/traverse': 7.27.4
+      semver: 6.3.1
+    transitivePeerDependencies:
+      - supports-color
+
+  '@babel/helper-member-expression-to-functions@7.27.1':
+    dependencies:
+      '@babel/traverse': 7.27.4
+      '@babel/types': 7.27.6
+    transitivePeerDependencies:
+      - supports-color
 
   '@babel/helper-module-imports@7.18.6':
     dependencies:
@@ -4744,7 +4808,27 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  '@babel/helper-optimise-call-expression@7.27.1':
+    dependencies:
+      '@babel/types': 7.27.6
+
   '@babel/helper-plugin-utils@7.27.1': {}
+
+  '@babel/helper-replace-supers@7.27.1(@babel/core@7.27.4)':
+    dependencies:
+      '@babel/core': 7.27.4
+      '@babel/helper-member-expression-to-functions': 7.27.1
+      '@babel/helper-optimise-call-expression': 7.27.1
+      '@babel/traverse': 7.27.4
+    transitivePeerDependencies:
+      - supports-color
+
+  '@babel/helper-skip-transparent-expression-wrappers@7.27.1':
+    dependencies:
+      '@babel/traverse': 7.27.4
+      '@babel/types': 7.27.6
+    transitivePeerDependencies:
+      - supports-color
 
   '@babel/helper-string-parser@7.27.1': {}
 
@@ -4770,6 +4854,36 @@ snapshots:
     dependencies:
       '@babel/core': 7.27.4
       '@babel/helper-plugin-utils': 7.27.1
+
+  '@babel/plugin-transform-modules-commonjs@7.27.1(@babel/core@7.27.4)':
+    dependencies:
+      '@babel/core': 7.27.4
+      '@babel/helper-module-transforms': 7.27.3(@babel/core@7.27.4)
+      '@babel/helper-plugin-utils': 7.27.1
+    transitivePeerDependencies:
+      - supports-color
+
+  '@babel/plugin-transform-typescript@7.27.1(@babel/core@7.27.4)':
+    dependencies:
+      '@babel/core': 7.27.4
+      '@babel/helper-annotate-as-pure': 7.27.3
+      '@babel/helper-create-class-features-plugin': 7.27.1(@babel/core@7.27.4)
+      '@babel/helper-plugin-utils': 7.27.1
+      '@babel/helper-skip-transparent-expression-wrappers': 7.27.1
+      '@babel/plugin-syntax-typescript': 7.27.1(@babel/core@7.27.4)
+    transitivePeerDependencies:
+      - supports-color
+
+  '@babel/preset-typescript@7.27.1(@babel/core@7.27.4)':
+    dependencies:
+      '@babel/core': 7.27.4
+      '@babel/helper-plugin-utils': 7.27.1
+      '@babel/helper-validator-option': 7.27.1
+      '@babel/plugin-syntax-jsx': 7.27.1(@babel/core@7.27.4)
+      '@babel/plugin-transform-modules-commonjs': 7.27.1(@babel/core@7.27.4)
+      '@babel/plugin-transform-typescript': 7.27.1(@babel/core@7.27.4)
+    transitivePeerDependencies:
+      - supports-color
 
   '@babel/runtime@7.27.6': {}
 
@@ -5430,9 +5544,9 @@ snapshots:
     dependencies:
       solid-js: 1.9.7
 
-  '@solidjs/start@1.1.4(@testing-library/jest-dom@6.6.3)(@types/node@24.0.3)(jiti@2.4.2)(solid-js@1.9.7)(terser@5.42.0)(tsx@4.20.3)(vinxi@0.5.7(@netlify/blobs@8.2.0)(@types/node@24.0.3)(aws4fetch@1.0.20)(db0@0.3.2)(ioredis@5.6.1)(jiti@2.4.2)(terser@5.42.0)(tsx@4.20.3))(vite@6.3.5(@types/node@24.0.3)(jiti@2.4.2)(terser@5.42.0)(tsx@4.20.3))':
+  '@solidjs/start@1.1.5(@testing-library/jest-dom@6.6.3)(solid-js@1.9.7)(vinxi@0.5.7(@netlify/blobs@8.2.0)(@types/node@24.0.3)(aws4fetch@1.0.20)(db0@0.3.2)(ioredis@5.6.1)(jiti@2.4.2)(terser@5.42.0)(tsx@4.20.3))(vite@6.3.5(@types/node@24.0.3)(jiti@2.4.2)(terser@5.42.0)(tsx@4.20.3))':
     dependencies:
-      '@tanstack/server-functions-plugin': 1.120.17(@types/node@24.0.3)(jiti@2.4.2)(terser@5.42.0)(tsx@4.20.3)
+      '@tanstack/server-functions-plugin': 1.121.21(vite@6.3.5(@types/node@24.0.3)(jiti@2.4.2)(terser@5.42.0)(tsx@4.20.3))
       '@vinxi/plugin-directives': 0.5.1(vinxi@0.5.7(@netlify/blobs@8.2.0)(@types/node@24.0.3)(aws4fetch@1.0.20)(db0@0.3.2)(ioredis@5.6.1)(jiti@2.4.2)(terser@5.42.0)(tsx@4.20.3))
       '@vinxi/server-components': 0.5.1(vinxi@0.5.7(@netlify/blobs@8.2.0)(@types/node@24.0.3)(aws4fetch@1.0.20)(db0@0.3.2)(ioredis@5.6.1)(jiti@2.4.2)(terser@5.42.0)(tsx@4.20.3))
       defu: 6.1.4
@@ -5449,21 +5563,9 @@ snapshots:
       vite-plugin-solid: 2.11.6(@testing-library/jest-dom@6.6.3)(solid-js@1.9.7)(vite@6.3.5(@types/node@24.0.3)(jiti@2.4.2)(terser@5.42.0)(tsx@4.20.3))
     transitivePeerDependencies:
       - '@testing-library/jest-dom'
-      - '@types/node'
-      - babel-plugin-macros
-      - jiti
-      - less
-      - lightningcss
-      - sass
-      - sass-embedded
       - solid-js
-      - stylus
-      - sugarss
       - supports-color
-      - terser
-      - tsx
       - vite
-      - yaml
 
   '@solidjs/testing-library@0.8.10(@solidjs/router@0.15.3(solid-js@1.9.7))(solid-js@1.9.7)':
     dependencies:
@@ -5508,43 +5610,31 @@ snapshots:
       - supports-color
       - typescript
 
-  '@tanstack/directive-functions-plugin@1.120.17(@types/node@24.0.3)(jiti@2.4.2)(terser@5.42.0)(tsx@4.20.3)':
+  '@tanstack/directive-functions-plugin@1.121.21(vite@6.3.5(@types/node@24.0.3)(jiti@2.4.2)(terser@5.42.0)(tsx@4.20.3))':
     dependencies:
       '@babel/code-frame': 7.26.2
       '@babel/core': 7.27.4
-      '@babel/plugin-syntax-jsx': 7.27.1(@babel/core@7.27.4)
-      '@babel/plugin-syntax-typescript': 7.27.1(@babel/core@7.27.4)
-      '@babel/template': 7.27.2
       '@babel/traverse': 7.27.4
       '@babel/types': 7.27.6
-      '@tanstack/router-utils': 1.120.17
+      '@tanstack/router-utils': 1.121.21
       babel-dead-code-elimination: 1.0.10
-      dedent: 1.6.0
       tiny-invariant: 1.3.3
       vite: 6.3.5(@types/node@24.0.3)(jiti@2.4.2)(terser@5.42.0)(tsx@4.20.3)
     transitivePeerDependencies:
-      - '@types/node'
-      - babel-plugin-macros
-      - jiti
-      - less
-      - lightningcss
-      - sass
-      - sass-embedded
-      - stylus
-      - sugarss
       - supports-color
-      - terser
-      - tsx
-      - yaml
 
-  '@tanstack/router-utils@1.120.17':
+  '@tanstack/router-utils@1.121.21':
     dependencies:
+      '@babel/core': 7.27.4
       '@babel/generator': 7.27.5
       '@babel/parser': 7.27.5
-      ansis: 3.17.0
-      diff: 7.0.0
+      '@babel/preset-typescript': 7.27.1(@babel/core@7.27.4)
+      ansis: 4.1.0
+      diff: 8.0.2
+    transitivePeerDependencies:
+      - supports-color
 
-  '@tanstack/server-functions-plugin@1.120.17(@types/node@24.0.3)(jiti@2.4.2)(terser@5.42.0)(tsx@4.20.3)':
+  '@tanstack/server-functions-plugin@1.121.21(vite@6.3.5(@types/node@24.0.3)(jiti@2.4.2)(terser@5.42.0)(tsx@4.20.3))':
     dependencies:
       '@babel/code-frame': 7.26.2
       '@babel/core': 7.27.4
@@ -5553,24 +5643,12 @@ snapshots:
       '@babel/template': 7.27.2
       '@babel/traverse': 7.27.4
       '@babel/types': 7.27.6
-      '@tanstack/directive-functions-plugin': 1.120.17(@types/node@24.0.3)(jiti@2.4.2)(terser@5.42.0)(tsx@4.20.3)
+      '@tanstack/directive-functions-plugin': 1.121.21(vite@6.3.5(@types/node@24.0.3)(jiti@2.4.2)(terser@5.42.0)(tsx@4.20.3))
       babel-dead-code-elimination: 1.0.10
-      dedent: 1.6.0
       tiny-invariant: 1.3.3
     transitivePeerDependencies:
-      - '@types/node'
-      - babel-plugin-macros
-      - jiti
-      - less
-      - lightningcss
-      - sass
-      - sass-embedded
-      - stylus
-      - sugarss
       - supports-color
-      - terser
-      - tsx
-      - yaml
+      - vite
 
   '@testing-library/dom@10.4.0':
     dependencies:
@@ -6125,7 +6203,7 @@ snapshots:
 
   ansi-styles@6.2.1: {}
 
-  ansis@3.17.0: {}
+  ansis@4.1.0: {}
 
   anymatch@3.1.3:
     dependencies:
@@ -6245,7 +6323,7 @@ snapshots:
       '@aws-cdk/cloud-assembly-schema': 44.5.0
       constructs: 10.4.2
 
-  aws-cdk@2.1018.1:
+  aws-cdk@2.1019.1:
     optionalDependencies:
       fsevents: 2.3.2
 
@@ -6589,8 +6667,6 @@ snapshots:
 
   decimal.js@10.5.0: {}
 
-  dedent@1.6.0: {}
-
   deep-eql@5.0.2: {}
 
   deep-is@0.1.4: {}
@@ -6689,7 +6765,7 @@ snapshots:
 
   diff@4.0.2: {}
 
-  diff@7.0.0: {}
+  diff@8.0.2: {}
 
   doctrine@2.1.0:
     dependencies:
