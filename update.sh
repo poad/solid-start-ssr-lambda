@@ -19,7 +19,7 @@ if [ $result -ne 0 ]; then
 fi
 echo ""
 pwd
-if ! (npx pnpm@latest self-update && pnpm install -r && pnpm up -r && pnpm -r --parallel --if-present lint-fix) ; then
+if ! (npx -y pnpm@latest self-update && pnpm install -r && pnpm up -r && pnpm -r --parallel --if-present lint-fix) ; then
   cd "${CUR}" || exit
   exit 1
 fi
