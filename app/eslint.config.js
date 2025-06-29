@@ -2,12 +2,8 @@
 
 import eslint from '@eslint/js';
 import stylistic from '@stylistic/eslint-plugin';
-import stylisticTs from '@stylistic/eslint-plugin-ts';
 import tseslint from 'typescript-eslint';
-// @ts-ignore
 import importPlugin from 'eslint-plugin-import';
-
-// @ts-ignore
 import pluginPromise from 'eslint-plugin-promise'
 
 import solid from 'eslint-plugin-solid';
@@ -56,7 +52,7 @@ export default tseslint.config(
     },
     plugins: {
       '@stylistic': stylistic,
-      '@stylistic/ts': stylisticTs,
+      '@stylistic/ts': stylistic,
       solid,
     },
     rules: {
