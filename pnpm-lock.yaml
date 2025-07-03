@@ -155,8 +155,8 @@ importers:
   cdk:
     dependencies:
       aws-cdk-lib:
-        specifier: ^2.203.0
-        version: 2.203.0(constructs@10.4.2)
+        specifier: ^2.203.1
+        version: 2.203.1(constructs@10.4.2)
       constructs:
         specifier: ^10.4.2
         version: 10.4.2
@@ -168,8 +168,8 @@ importers:
         specifier: ^24.0.10
         version: 24.0.10
       aws-cdk:
-        specifier: ^2.1020.0
-        version: 2.1020.0
+        specifier: ^2.1020.1
+        version: 2.1020.1
       ts-node:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@24.0.10)(typescript@5.8.3)
@@ -1657,8 +1657,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  aws-cdk-lib@2.203.0:
-    resolution: {integrity: sha512-9aB/oIZ2nNVfuqCJuZ66122U/pkkOfR4OcC8aXbgRLc1hKSnTXtGC9W2LlortweBZwTaTs4sk4xaQ9TYHgk0CQ==}
+  aws-cdk-lib@2.203.1:
+    resolution: {integrity: sha512-tvxWV0aGk4UJngcDfkHL7SOx4kE1xZXNlf5x8Hw7tBLtvwwRHQ65JwFleEBQ93jOBF0pXDEruHXV/f3sfmHfBQ==}
     engines: {node: '>= 14.15.0'}
     peerDependencies:
       constructs: ^10.0.0
@@ -1675,8 +1675,8 @@ packages:
       - yaml
       - mime-types
 
-  aws-cdk@2.1020.0:
-    resolution: {integrity: sha512-luLfXrshHJBtN7BZVFHYEsDRYfE15zRgejKElRhaC6rDAS19RZoDObKC6FDCYZCoFlHJR15ZeP2uGgV+4i6qEw==}
+  aws-cdk@2.1020.1:
+    resolution: {integrity: sha512-4UG9qzf6ZSDjINubcukPZChVj6PvDJAHiURAw0jYSkUhObPkX7Zo9uNUIlXzrM+hpB2N2jwRKY9b3sN+KDbtAQ==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
 
@@ -6370,14 +6370,14 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.1.0
 
-  aws-cdk-lib@2.203.0(constructs@10.4.2):
+  aws-cdk-lib@2.203.1(constructs@10.4.2):
     dependencies:
       '@aws-cdk/asset-awscli-v1': 2.2.242
       '@aws-cdk/asset-node-proxy-agent-v6': 2.1.0
       '@aws-cdk/cloud-assembly-schema': 44.9.0
       constructs: 10.4.2
 
-  aws-cdk@2.1020.0:
+  aws-cdk@2.1020.1:
     optionalDependencies:
       fsevents: 2.3.2
 
