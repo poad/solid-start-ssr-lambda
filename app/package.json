@@ -36,7 +36,7 @@
     "eslint-plugin-solid": "^0.14.5",
     "globals": "^16.3.0",
     "jsdom": "^26.1.0",
-    "pnpm": "^10.12.4",
+    "pnpm": "^10.13.1",
     "solid-js": "^1.9.7",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.36.0",
