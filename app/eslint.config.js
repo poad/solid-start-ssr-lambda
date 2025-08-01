@@ -18,10 +18,6 @@ const gitignorePath = path.resolve(__dirname, "../.gitignore");
 
 export default tseslint.config(
   includeIgnoreFile(gitignorePath),
-  eslint.configs.recommended,
-  ...tseslint.configs.strict,
-  ...tseslint.configs.stylistic,
-  pluginPromise.configs['flat/recommended'],
   {
     ignores: [
       '**/*.d.ts',
@@ -35,10 +31,14 @@ export default tseslint.config(
       'dist',
     ],
   },
+  eslint.configs.recommended,
+  ...tseslint.configs.strict,
+  ...tseslint.configs.stylistic,
+  pluginPromise.configs['flat/recommended'],
+  importPlugin.flatConfigs.recommended,
+  importPlugin.flatConfigs.typescript,
   {
     files: ['src/**/*.ts'],
-    ...importPlugin.flatConfigs.recommended,
-    ...importPlugin.flatConfigs.typescript,
     languageOptions: {
       parser: tseslint.parser,
       ecmaVersion: 'latest',
@@ -57,10 +57,16 @@ export default tseslint.config(
     },
     rules: {
       '@stylistic/semi': ['error', 'always'],
-      '@stylistic/ts/indent': ['error', 2],
+      // '@stylistic/indent': ['error', 2],
       '@stylistic/comma-dangle': ['error', 'always-multiline'],
       '@stylistic/arrow-parens': ['error', 'always'],
       '@stylistic/quotes': ['error', 'single'],
+      'import/namespace': 'off',
+      'import/no-unresolved': 'off',
+      'import/default': 'off',
+      'import/no-duplicates': 'off',
+      'import/no-named-as-default': 'off',
+      'import/no-named-as-default-member': 'off',
     },
   },
 );
