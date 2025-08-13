@@ -37,11 +37,11 @@
     "globals": "^16.3.0",
     "jsdom": "^26.1.0",
     "pnpm": "^10.14.0",
-    "solid-js": "^1.9.8",
+    "solid-js": "^1.9.9",
     "typescript": "^5.9.2",
     "typescript-eslint": "^8.39.1",
     "vinxi": "^0.5.8",
-    "vite": "^7.1.1",
+    "vite": "^7.1.2",
     "vite-plugin-solid": "^2.11.8",
     "vitest": "^3.2.4"
   }
