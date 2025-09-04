@@ -27,6 +27,7 @@ jobs:
       with:
         node-version: 22.x
         check-latest: true
+        package-manager-cache: false
 
     - uses: pnpm/action-setup@v4
       name: Install pnpm
