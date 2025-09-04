@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-24.04-arm
     steps:
     - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@v4
+      uses: aws-actions/configure-aws-credentials@v5
       with:
         role-to-assume: ${{ env.OIDC_IAM_ROLE_ARN }}
         role-session-name: GitHubActions
@@ -32,10 +32,11 @@ jobs:
     - uses: actions/checkout@v5
 
     - name: Use Node.js 22.x
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v5
       with:
         node-version: 22.x
         check-latest: true
+        package-manager-cache: false
 
     - uses: pnpm/action-setup@v4
       name: Install pnpm
