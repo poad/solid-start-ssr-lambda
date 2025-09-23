@@ -1,5 +1,4 @@
 // @refresh reload
-// eslint-disable-next-line import/no-unresolved
 import { createHandler, StartServer } from "@solidjs/start/server";
 
 export default createHandler(() => (
