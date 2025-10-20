@@ -32,7 +32,7 @@
     "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-solid": "^0.14.5",
     "globals": "^16.4.0",
-    "jsdom": "^27.0.0",
+    "jsdom": "^27.0.1",
     "pnpm": "^10.18.3",
     "solid-js": "^1.9.9",
     "typescript": "^5.9.3",
