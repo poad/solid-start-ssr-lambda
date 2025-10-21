@@ -21,7 +21,7 @@
     "globals": "^16.4.0",
     "pnpm": "^10.18.3",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.46.1"
+    "typescript-eslint": "^8.46.2"
   },
   "packageManager": "pnpm@10.18.3"
 }
