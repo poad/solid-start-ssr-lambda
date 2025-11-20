@@ -21,7 +21,7 @@
     "@solidjs/router": "^0.15.4",
     "@solidjs/start": "^1.2.0",
     "@solidjs/testing-library": "^0.8.10",
-    "@stylistic/eslint-plugin": "^5.6.0",
+    "@stylistic/eslint-plugin": "^5.6.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/user-event": "^14.6.1",
     "@vitest/coverage-v8": "^4.0.10",
