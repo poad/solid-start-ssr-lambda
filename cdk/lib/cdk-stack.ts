@@ -28,7 +28,7 @@ export class CdkStack extends cdk.Stack {
 
     const handler = new lambda.Function(this, 'Handler', {
       functionName,
-      runtime: lambda.Runtime.NODEJS_22_X,
+      runtime: lambda.Runtime.NODEJS_24_X,
       handler: 'index.handler',
       code: lambda.Code.fromAsset(solidStartsDistPath),
       architecture: lambda.Architecture.ARM_64,

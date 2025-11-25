@@ -13,14 +13,14 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: ubuntu-24.04-arm
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v6
 
-    - name: Use Node.js 22.x
+    - name: Use Node.js
       uses: actions/setup-node@v6
       with:
-        node-version: 22.x
+        node-version: 'lts/*'
         check-latest: true
         package-manager-cache: false
 
