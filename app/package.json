@@ -32,13 +32,13 @@
     "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-solid": "^0.14.5",
     "globals": "^16.5.0",
-    "jsdom": "^27.2.0",
-    "pnpm": "^10.24.0",
+    "jsdom": "^27.3.0",
+    "pnpm": "^10.25.0",
     "solid-js": "^1.9.10",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.48.1",
+    "typescript-eslint": "^8.49.0",
     "vinxi": "^0.5.8",
-    "vite": "^7.2.6",
+    "vite": "^7.2.7",
     "vite-plugin-solid": "^2.11.10",
     "vitest": "^4.0.15"
   }
