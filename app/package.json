@@ -37,7 +37,7 @@
     "solid-js": "^1.9.10",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.50.0",
-    "vinxi": "^0.5.9",
+    "vinxi": "^0.5.10",
     "vite": "^7.3.0",
     "vite-plugin-solid": "^2.11.10",
     "vitest": "^4.0.16"
