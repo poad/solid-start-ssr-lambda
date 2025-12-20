@@ -19,9 +19,9 @@
     "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-solid": "^0.14.5",
     "globals": "^16.5.0",
-    "pnpm": "^10.26.0",
+    "pnpm": "^10.26.1",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.50.0"
   },
-  "packageManager": "pnpm@10.26.0"
+  "packageManager": "pnpm@10.26.1"
 }
