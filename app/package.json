@@ -31,7 +31,7 @@
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-solid": "^0.14.5",
-    "globals": "^17.1.0",
+    "globals": "^17.2.0",
     "jsdom": "^27.4.0",
     "pnpm": "^10.28.2",
     "solid-js": "^1.9.11",
