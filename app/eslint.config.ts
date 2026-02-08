@@ -1,5 +1,3 @@
-// @ts-check
-
 import { defineConfig } from 'eslint/config';
 import eslint from '@eslint/js';
 import stylistic from '@stylistic/eslint-plugin';

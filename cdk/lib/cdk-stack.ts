@@ -3,10 +3,10 @@ import * as lambda from 'aws-cdk-lib/aws-lambda';
 import * as logs from 'aws-cdk-lib/aws-logs';
 import { Construct } from 'constructs';
 import * as path from 'path';
-import { buildFrontend } from './process/setup';
+import { buildFrontend } from './process/setup.ts';
 
 interface CdkStackProps extends cdk.StackProps {
-  name: string
+  readonly name: string
 }
 
 export class CdkStack extends cdk.Stack {

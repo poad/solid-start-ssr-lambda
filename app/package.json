@@ -1,7 +1,9 @@
 {
   "name": "@solid-start-ssr-lambda/app",
+  "types": "module",
   "scripts": {
     "build": "vinxi build",
+    "clean": "tsc --build --clean",
     "coverage": "vitest run --coverage",
     "dev": "vinxi dev",
     "lint": "eslint",
@@ -32,8 +34,9 @@
     "eslint-plugin-promise": "^7.2.1",
     "eslint-plugin-solid": "^0.14.5",
     "globals": "^17.3.0",
+    "jiti": "^2.6.1",
     "jsdom": "^28.0.0",
-    "pnpm": "^10.28.2",
+    "pnpm": "^10.29.1",
     "solid-js": "^1.9.11",
     "typescript": "^5.9.3",
     "typescript-eslint": "^8.54.0",

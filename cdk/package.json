@@ -4,18 +4,30 @@
   "bin": {
     "cdk": "bin/cdk.js"
   },
+  "type": "module",
   "scripts": {
     "build": "tsc",
+    "clean": "tsc --build --clean",
     "watch": "tsc -w",
-    "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "lint": "eslint",
+    "lint-fix": "eslint --fix"
   },
   "devDependencies": {
-    "@types/node": "^25.2.1",
+    "@eslint/compat": "^2.0.2",
+    "@eslint/eslintrc": "^3.3.3",
+    "@eslint/js": "^9.39.2",
+    "@stylistic/eslint-plugin": "^5.7.1",
+    "@types/node": "^25.2.2",
     "aws-cdk": "^2.1105.0",
-    "ts-node": "^10.9.2",
+    "eslint": "^9.39.2",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "eslint-plugin-awscdk": "^4.1.0",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-promise": "^7.2.1",
     "tsx": "^4.21.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.54.0"
   },
   "dependencies": {
     "aws-cdk-lib": "^2.237.1",
