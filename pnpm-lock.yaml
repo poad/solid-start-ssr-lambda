@@ -38,7 +38,7 @@ importers:
         specifier: ^3.3.3
         version: 3.3.3
       '@eslint/js':
-        specifier: ^9
+        specifier: ^9.39.2
         version: 9.39.2
       '@solidjs/meta':
         specifier: ^0.29.4
@@ -53,7 +53,7 @@ importers:
         specifier: ^0.8.10
         version: 0.8.10(@solidjs/router@0.15.4(solid-js@1.9.11))(solid-js@1.9.11)
       '@stylistic/eslint-plugin':
-        specifier: '>=5.0.0'
+        specifier: ^5.9.0
         version: 5.9.0(eslint@9.39.2(jiti@2.6.1))
       '@testing-library/jest-dom':
         specifier: ^6.9.1
@@ -68,7 +68,7 @@ importers:
         specifier: ^4.0.18
         version: 4.0.18(vitest@4.0.18)
       eslint:
-        specifier: ^9
+        specifier: ^9.39.2
         version: 9.39.2(jiti@2.6.1)
       eslint-import-resolver-typescript:
         specifier: ^4.4.4
@@ -135,19 +135,19 @@ importers:
         specifier: ^3.3.3
         version: 3.3.3
       '@eslint/js':
-        specifier: ^9
+        specifier: ^9.39.2
         version: 9.39.2
       '@stylistic/eslint-plugin':
-        specifier: '>=5.0.0'
+        specifier: ^5.9.0
         version: 5.9.0(eslint@9.39.2(jiti@2.6.1))
       '@types/node':
-        specifier: ^24
+        specifier: ^24.10.13
         version: 24.10.13
       aws-cdk:
         specifier: ^2.1106.1
         version: 2.1106.1
       eslint:
-        specifier: ^9
+        specifier: ^9.39.2
         version: 9.39.2(jiti@2.6.1)
       eslint-import-resolver-typescript:
         specifier: ^4.4.4
