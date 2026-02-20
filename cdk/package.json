@@ -18,7 +18,7 @@
     "@eslint/eslintrc": "^3.3.3",
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.9.0",
-    "@types/node": "^25.3.0",
+    "@types/node": "^24.10.13",
     "aws-cdk": "^2.1106.1",
     "eslint": "^10.0.0",
     "eslint-import-resolver-typescript": "^4.4.4",
