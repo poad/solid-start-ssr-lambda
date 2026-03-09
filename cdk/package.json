@@ -14,13 +14,13 @@
     "lint-fix": "eslint --fix"
   },
   "devDependencies": {
-    "@eslint/compat": "^2.0.2",
-    "@eslint/eslintrc": "^3.3.4",
+    "@eslint/compat": "^2.0.3",
+    "@eslint/eslintrc": "^3.3.5",
     "@eslint/js": "^10.0.1",
-    "@stylistic/eslint-plugin": "^5.9.0",
-    "@types/node": "^24.11.2",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "@types/node": "^24.12.0",
     "aws-cdk": "^2.1109.0",
-    "eslint": "^10.0.2",
+    "eslint": "^10.0.3",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-awscdk": "^4.2.1",
     "eslint-plugin-import": "^2.32.0",
