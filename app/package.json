@@ -26,8 +26,8 @@
     "@stylistic/eslint-plugin": "^5.10.0",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/user-event": "^14.6.1",
-    "@vitest/coverage-v8": "^4.1.0",
-    "@vitest/ui": "^4.1.0",
+    "@vitest/coverage-v8": "^4.1.1",
+    "@vitest/ui": "^4.1.1",
     "eslint": "^10.1.0",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import": "^2.32.0",
@@ -38,11 +38,11 @@
     "jsdom": "^29.0.1",
     "pnpm": "^10.32.1",
     "solid-js": "^1.9.11",
-    "typescript": "^5.9.3",
-    "typescript-eslint": "^8.57.1",
+    "typescript": "^6.0.2",
+    "typescript-eslint": "^8.57.2",
     "vinxi": "^0.5.11",
-    "vite": "^8.0.1",
+    "vite": "^8.0.2",
     "vite-plugin-solid": "^2.11.11",
-    "vitest": "^4.1.0"
+    "vitest": "^4.1.1"
   }
 }
