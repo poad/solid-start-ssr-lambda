@@ -2,8 +2,9 @@ import { defineConfig } from 'eslint/config';
 import eslint from '@eslint/js';
 import stylistic from '@stylistic/eslint-plugin';
 import {configs, parser} from 'typescript-eslint';
-import eslintImport from 'eslint-plugin-import';
-// import cdkPlugin from "eslint-plugin-awscdk";
+import {importX, createNodeResolver} from 'eslint-plugin-import-x';
+import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescript'
+import cdkPlugin from "eslint-plugin-awscdk";
 
 import { includeIgnoreFile } from '@eslint/compat';
 import path from 'node:path';
@@ -45,14 +46,19 @@ export default defineConfig(
         allowDefaultProject: ['*.ts'],
       },
     },
+    settings: {
+      'import-x/resolver-next': [
+        createTypeScriptImportResolver(),
+        createNodeResolver(),
+      ],
+    },
     plugins: {
       '@stylistic': stylistic,
+      'import-x': importX,
     },
     extends: [
-//      // @ts-expect-error ignore type errors
-//      cdkPlugin.configs.recommended,
-      eslintImport.flatConfigs.recommended,
-      eslintImport.flatConfigs.typescript,
+     cdkPlugin.configs.recommended,
+      'import-x/flat/recommended',
     ],
     rules: {
       '@stylistic/semi': ['error', 'always'],
